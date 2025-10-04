@@ -1,64 +1,64 @@
 model,refrigerant,ambient,btuh,cond_temp,voltage,required_addon1,required_addon2,required_addon3
-M6JM-H020-IAA-177,r448,90,2350,114,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6JM-H020-IAA-177,r448,100,2180,123,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6JM-H020-IAA-177,r448,110,1940,132,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6JM-H023-IAA-177,r448,90,2760,118,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6JM-H023-IAA-177,r448,100,2500,126,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6JM-H023-IAA-177,r448,110,2300,135,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0025-IAV-177,r448,90,3590,117,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0025-IAV-177,r448,100,3210,126,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0025-IAV-177,r448,110,2860,134,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H031-IAA-078,r448,90,3420,121,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H031-IAA-078,r448,100,3070,129,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H031-IAA-078,r448,110,2720,137,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0032-IAA-177,r448,90,3980,119,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0032-IAA-177,r448,100,3630,127,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0032-IAA-177,r448,110,3310,136,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0048-IAA-272,r448,90,5840,131,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0048-IAA-272,r448,100,5340,139,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZM-0048-IAA-272,r448,110,NO,NO,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H049-CAV-078,r448,90,5330,137,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H049-CAV-078,r448,100,no,no,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H049-CAV-078,r448,110,no,no,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H049-IAA-272,r448,90,5330,137,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H049-IAA-272,r448,100,no,no,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6QM-H049-IAA-272,r448,110,no,no,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZP-0053-IAA-177,r448,90,6030,132,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZP-0053-IAA-177,r448,100,5420,140,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZP-0053-IAA-177,r448,110,no,no,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZP-0053-IAV-177,r448,90,6030,132,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZP-0053-IAV-177,r448,100,5420,140,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6ZP-0053-IAV-177,r448,110,no,no,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GM-H057-IAA-272,r448,90,6450,120,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GM-H057-IAA-272,r448,100,5980,129,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GM-H057-IAA-272,r448,110,5440,137,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GP-H064-CAV-177,r448,90,7120,121,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GP-H064-CAV-177,r448,100,6500,130,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GP-H064-CAV-177,r448,110,5840,138,230,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GP-H064-CAA-177,r448,90,7120,121,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GP-H064-CAA-177,r448,100,6500,130,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6GP-H064-CAA-177,r448,110,5840,138,115,Low Pressure Ctrl,Fan Cycling Ctrl,Access Tee
-M6KP-0075-CFA-072,r448,90,8650,125,115,,Fan Cycling Ctrl,Access Tee
-M6KP-0075-CFA-072,r448,100,7900,133,115,,Fan Cycling Ctrl,Access Tee
-M6KP-0075-CFA-072,r448,110,7260,140,115,,Fan Cycling Ctrl,Access Tee
-M6KP-0075-CAV-072,r448,90,8650,125,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0075-CAV-072,r448,100,7900,133,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0075-CAV-072,r448,110,7260,140,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0092-CFA-072,r448,90,10120,131,115,,Fan Cycling Ctrl,Access Tee
-M6KP-0092-CFA-072,r448,100,9270,139,115,,Fan Cycling Ctrl,Access Tee
-M6KP-0092-CFA-072,r448,110,no,no,115,,Fan Cycling Ctrl,Access Tee
-M6KP-0092-CAV-072,r448,90,10120,131,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0092-CAV-072,r448,100,9270,139,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0092-CAV-072,r448,110,no,no,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0102-CAV-072,r448,90,12080,115,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0102-CAV-072,r448,100,11150,124,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0102-CAV-072,r448,110,10160,133,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0106-CFV-072,r448,90,10960,134,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0106-CFV-072,r448,100,10130,141,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0106-CFV-072,r448,110,no,no,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0112-CFV-072,r448,90,12020,114,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0112-CFV-072,r448,100,11000,123,230,,Fan Cycling Ctrl,Access Tee
-M6KP-0112-CFV-072,r448,110,10010,132,230,,Fan Cycling Ctrl,Access Tee
+M6JM-H020-IAA-177,r448,90,2350,114,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6JM-H020-IAA-177,r448,100,2180,123,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6JM-H020-IAA-177,r448,110,1940,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6JM-H023-IAA-177,r448,90,2760,118,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6JM-H023-IAA-177,r448,100,2500,126,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6JM-H023-IAA-177,r448,110,2300,135,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0025-IAV-177,r448,90,3590,117,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0025-IAV-177,r448,100,3210,126,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0025-IAV-177,r448,110,2860,134,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H031-IAA-078,r448,90,3420,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H031-IAA-078,r448,100,3070,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H031-IAA-078,r448,110,2720,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0032-IAA-177,r448,90,3980,119,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0032-IAA-177,r448,100,3630,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0032-IAA-177,r448,110,3310,136,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0048-IAA-272,r448,90,5840,131,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0048-IAA-272,r448,100,5340,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZM-0048-IAA-272,r448,110,NO,NO,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H049-CAV-078,r448,90,5330,137,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H049-CAV-078,r448,100,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H049-CAV-078,r448,110,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H049-IAA-272,r448,90,5330,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H049-IAA-272,r448,100,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6QM-H049-IAA-272,r448,110,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZP-0053-IAA-177,r448,90,6030,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZP-0053-IAA-177,r448,100,5420,140,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZP-0053-IAA-177,r448,110,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZP-0053-IAV-177,r448,90,6030,132,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZP-0053-IAV-177,r448,100,5420,140,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6ZP-0053-IAV-177,r448,110,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GM-H057-IAA-272,r448,90,6450,120,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GM-H057-IAA-272,r448,100,5980,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GM-H057-IAA-272,r448,110,5440,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GP-H064-CAV-177,r448,90,7120,121,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GP-H064-CAV-177,r448,100,6500,130,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GP-H064-CAV-177,r448,110,5840,138,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GP-H064-CAA-177,r448,90,7120,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GP-H064-CAA-177,r448,100,6500,130,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6GP-H064-CAA-177,r448,110,5840,138,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0075-CFA-072,r448,90,8650,125,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0075-CFA-072,r448,100,7900,133,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0075-CFA-072,r448,110,7260,140,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0075-CAV-072,r448,90,8650,125,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0075-CAV-072,r448,100,7900,133,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0075-CAV-072,r448,110,7260,140,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0092-CFA-072,r448,90,10120,131,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0092-CFA-072,r448,100,9270,139,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0092-CFA-072,r448,110,no,no,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0092-CAV-072,r448,90,10120,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0092-CAV-072,r448,100,9270,139,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0092-CAV-072,r448,110,no,no,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0102-CAV-072,r448,90,12080,115,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0102-CAV-072,r448,100,11150,124,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0102-CAV-072,r448,110,10160,133,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0106-CFV-072,r448,90,10960,134,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0106-CFV-072,r448,100,10130,141,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0106-CFV-072,r448,110,no,no,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0112-CFV-072,r448,90,12020,114,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0112-CFV-072,r448,100,11000,123,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
+M6KP-0112-CFV-072,r448,110,10010,132,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)"
 FFAM-A08Z-CFV-075,r448,90,9590,115,230,,,
 FFAM-A08Z-CFV-075,r448,100,8960,124,230,,,
 FFAM-A08Z-CFV-075,r448,110,8320,133,230,,,
