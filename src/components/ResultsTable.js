@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from "@mui/material";
 
 export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelect, onEvapSelect }) {
+  console.log(units);
   return (
     <Box mt={4}>
       <Typography variant="h5" gutterBottom>Condensing Units</Typography>
