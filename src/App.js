@@ -5,7 +5,7 @@ import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
 import { fetchCSV } from "./utils/csvLoader";
 import { APP_VERSION } from '../version';
-
+import Footer from './components/Footer';
 
 
 const condunitsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/condunitswine.csv";
@@ -113,6 +113,7 @@ export default function App() {
           )}
         </>
       )}
+      <Footer />
     </Container>
   );
 }
