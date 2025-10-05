@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Wine Refrigeration Selector
 
 This is a web application for selecting wine refrigeration condensing units and evaporators based on your requirements.  
