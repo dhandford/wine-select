@@ -47,7 +47,14 @@ export default function UnitSummary({ unit, type }) {
         )}
       </List>
       <Typography mt={2} variant="subtitle1"><b>Notes:</b></Typography>
-      <Typography>{unit.notes || "None"}</Typography>
+      <List>
+        <ListItem>
+          <ListItemText primary={unit.notes || "None"} />
+        </ListItem>
+      </List>
+
+
+
     </Box>
   );
 }
