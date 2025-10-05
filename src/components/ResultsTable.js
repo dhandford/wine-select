@@ -10,6 +10,7 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
           <TableHead>
             <TableRow>
               <TableCell>Model</TableCell>
+              <TableCell>Compressor</TableCell>
               <TableCell>BTUH</TableCell>
               <TableCell>Refrigerant</TableCell>
               <TableCell>Ambient Temp</TableCell>
@@ -31,6 +32,7 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
                 onClick={() => onUnitSelect && onUnitSelect(unit)}
               >
                 <TableCell>{unit.model}</TableCell>
+                <TableCell>{unit.compressor}</TableCell>
                 <TableCell>{unit.btuh}</TableCell>
                 <TableCell>{unit.refrigerant}</TableCell>
                 <TableCell>{unit.ambient}</TableCell>
