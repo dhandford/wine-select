@@ -23,11 +23,13 @@ function filterCondUnits(data, { btuh, refrigerant, ambient, voltage }) {
 
 function filterEvaps(data, { btuh, refrigerant, style }) {
   return data.filter((row) => {
-    const rowBTUH = Number(row.btuh);
-    const matchesBTU = rowBTUH && rowBTUH >= btuh * 0.9 && rowBTUH <= btuh * 1.25;
-    // FIX: CSV "any" matches everything
-    const matchesRefrig = row.refrigerant === "any" || row.refrigerant === refrigerant;
+    // Sanitize BTUH for proper number comparison
+    const rowBTUH = Number(row.btuh.replace(/[^\d.]/g, ''));
+    // Normalize refrigerant for robust matching
+    const matchesRefrig = row.refrigerant.trim().toLowerCase() === "any" ||
+      row.refrigerant.trim().toLowerCase() === refrigerant.trim().toLowerCase();
     const matchesStyle = !style || row.style === style || style === "any";
+    const matchesBTU = rowBTUH && rowBTUH >= btuh * 0.9 && rowBTUH <= btuh * 1.25;
     return matchesBTU && matchesRefrig && matchesStyle;
   });
 }
