@@ -17,7 +17,7 @@ export default function UnitSummary({ unit, type }) {
     .filter(addon => addon && addon.toLowerCase() !== "none");
 
   return (
-    <Box mt={4} p={2} border={1} borderRadius={2}>
+    <Box mt={4} border={1} borderRadius={2}> sx={{ p: 3, background: "#fff" }}>
       <Typography variant="h6" gutterBottom>
         {type === "evaporator" ? "Evaporator Summary" : "Unit Summary"}
       </Typography>
