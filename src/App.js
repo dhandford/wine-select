@@ -16,7 +16,9 @@ function filterCondUnits(data, { btuh, refrigerant, ambient, voltage }) {
     const rowAmbient = Number(row.ambient);
     const formAmbient = Number(ambient);
     const matchesBTU = rowBTUH && rowBTUH >= btuh * 0.9 && rowBTUH <= btuh * 1.25;
-    const matchesRefrig = refrigerant === "any" || row.refrigerant === refrigerant;
+    const rowRefrig = (row.refrigerant || "").trim().toLowerCase();
+    const formRefrig = (refrigerant || "").trim().toLowerCase();
+    const matchesRefrig = formRefrig === "any" || rowRefrig === formRefrig;
     const matchesAmbient = rowAmbient === formAmbient;
     const matchesVoltage = !voltage || String(row.voltage) === String(voltage);
     return matchesBTU && matchesRefrig && matchesAmbient && matchesVoltage;
