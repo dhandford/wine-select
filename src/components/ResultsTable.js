@@ -13,6 +13,7 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
               <TableCell>BTUH</TableCell>
               <TableCell>Refrigerant</TableCell>
               <TableCell>Ambient Temp</TableCell>
+              <TableCell>Condensing Temp</TableCell>
               <TableCell>Voltage</TableCell>
             </TableRow>
           </TableHead>
@@ -33,6 +34,7 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
                 <TableCell>{unit.btuh}</TableCell>
                 <TableCell>{unit.refrigerant}</TableCell>
                 <TableCell>{unit.ambient}</TableCell>
+                <TableCell>{unit.cond_temp}</TableCell>
                 <TableCell>{unit.voltage}</TableCell>
               </TableRow>
             ))}
