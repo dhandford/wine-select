@@ -26,6 +26,7 @@ export default function UnitSummary({ unit, type }) {
       </Typography>
       <Divider />
       <Typography><b>Model:</b> {unit.model}</Typography>
+      {unit.compressor && <Typography><b>Compressor:</b> {unit.compressor}</Typography>}
       <Typography><b>BTUH:</b> {unit.btuh}</Typography>
       <Typography><b>Refrigerant:</b> {unit.refrigerant}</Typography>
       {unit.ambient && <Typography><b>Ambient Temp:</b> {unit.ambient}</Typography>}
