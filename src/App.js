@@ -4,7 +4,6 @@ import SelectorForm from "./components/SelectorForm";
 import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
 import { fetchCSV } from "./utils/csvLoader";
-import { APP_VERSION } from './version';
 import Footer from './components/Footer';
 
 
