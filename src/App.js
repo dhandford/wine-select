@@ -4,6 +4,15 @@ import SelectorForm from "./components/SelectorForm";
 import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
 import { fetchCSV } from "./utils/csvLoader";
+import { APP_VERSION } from '../version';
+
+export default function Footer() {
+  return (
+    <footer style={{ textAlign: 'center', marginTop: 32, fontSize: 14, color: "#666" }}>
+      Wine Selector v{APP_VERSION}
+    </footer>
+  );
+}
 
 const condunitsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/condunitswine.csv";
 const wineevapsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/wineevaps.csv";
