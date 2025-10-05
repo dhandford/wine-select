@@ -25,7 +25,8 @@ function filterEvaps(data, { btuh, refrigerant, style }) {
   return data.filter((row) => {
     const rowBTUH = Number(row.btuh);
     const matchesBTU = rowBTUH && rowBTUH >= btuh * 0.9 && rowBTUH <= btuh * 1.25;
-    const matchesRefrig = refrigerant === "any" || row.refrigerant === refrigerant;
+    // FIX: CSV "any" matches everything
+    const matchesRefrig = row.refrigerant === "any" || row.refrigerant === refrigerant;
     const matchesStyle = !style || row.style === style || style === "any";
     return matchesBTU && matchesRefrig && matchesStyle;
   });
@@ -87,7 +88,7 @@ export default function App() {
                 evaps={results.evaps}
                 btuh={query.btuh}
                 onUnitSelect={handleUnitSelect}
-		onEvapSelect={handleEvapSelect}
+                onEvapSelect={handleEvapSelect}
               />
               {selectedUnit && (
                 <UnitSummary unit={selectedUnit} />
