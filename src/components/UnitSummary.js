@@ -11,7 +11,7 @@ export default function UnitSummary({ unit, type }) {
     "required_addon3",
     "required_addon4",
     "required_addon5",
-    "notes",
+
   ];
   const addons = addonFields
     .map(field => unit[field])
