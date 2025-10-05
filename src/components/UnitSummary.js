@@ -20,7 +20,7 @@ export default function UnitSummary({ unit, type }) {
   console.log("UnitSummary unit:", unit);
 
   return (
-    <Box mt={4} border={1} borderRadius={2} sx={{ p: 3, background: "#fff" }}>
+    <Box mt={4} mb={4} border={1} borderRadius={2} sx={{ p: 3, background: "#fff" }}>
       <Typography variant="h6" gutterBottom>
         {type === "evaporator" ? "Evaporator Summary" : "Unit Summary"}
       </Typography>
@@ -45,6 +45,8 @@ export default function UnitSummary({ unit, type }) {
           ))
         )}
       </List>
+      <Typography mt={2} variant="subtitle1"><b>Notes:</b></Typography>
+      <Typography>{unit.notes || "None"}</Typography>
     </Box>
   );
 }
