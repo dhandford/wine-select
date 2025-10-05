@@ -11,6 +11,7 @@ export default function UnitSummary({ unit, type }) {
     "required_addon3",
     "required_addon4",
     "required_addon5",
+    "notes",
   ];
   const addons = addonFields
     .map(field => unit[field])
@@ -30,7 +31,6 @@ export default function UnitSummary({ unit, type }) {
       {unit.ambient && <Typography><b>Ambient Temp:</b> {unit.ambient}</Typography>}
       {unit.voltage && <Typography><b>Voltage:</b> {unit.voltage}</Typography>}
       {unit.style && <Typography><b>Style:</b> {unit.style}</Typography>}
-      {unit.notes && <Typography><b>Notes:</b> {unit.notes}</Typography>}
       <Typography mt={2} variant="subtitle1"><b>Required Addons:</b></Typography>
       <List>
         {addons.length === 0 ? (
