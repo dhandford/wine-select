@@ -24,7 +24,7 @@ function filterCondUnits(data, { btuh, refrigerant, ambient, voltage }) {
 function filterEvaps(data, { btuh, refrigerant, style }) {
   return data.filter((row) => {
     // Sanitize BTUH for proper number comparison
-    const rowBTUH = Number(row.btuh.replace(/[^\d.]/g, ''));
+    const rowBTUH = Number(String(row.btuh).replace(/[^\d.]/g, ''));
     // Normalize refrigerant for robust matching
     const matchesRefrig = row.refrigerant.trim().toLowerCase() === "any" ||
       row.refrigerant.trim().toLowerCase() === refrigerant.trim().toLowerCase();
