@@ -75,7 +75,7 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth required>
-            <InputLabel>Ambient Temp</InputLabel>
+            <InputLabel>Ambient Temp of Condensing Unit</InputLabel>
             <Select
               name="ambient"
               value={form.ambient}
