@@ -5,7 +5,13 @@ export default function UnitSummary({ unit, type }) {
   if (!unit) return null;
 
   // Gather all required addon fields for both types
-  const addonFields = ["required_addon1", "required_addon2", "required_addon3"];
+  const addonFields = [
+    "required_addon1",
+    "required_addon2",
+    "required_addon3",
+    "required_addon4",
+    "required_addon5",
+  ];
   const addons = addonFields
     .map(field => unit[field])
     .filter(addon => addon && addon.toLowerCase() !== "none");
