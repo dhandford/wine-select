@@ -16,6 +16,8 @@ export default function UnitSummary({ unit, type }) {
     .map(field => unit[field])
     .filter(addon => addon && addon.toLowerCase() !== "none");
 
+  console.log("UnitSummary unit:", unit);
+
   return (
     <Box mt={4} border={1} borderRadius={2} sx={{ p: 13, background: "#fff" }}>
       <Typography variant="h6" gutterBottom>
