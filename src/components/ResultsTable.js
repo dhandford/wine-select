@@ -19,11 +19,13 @@ export default function ResultsTable({
   onUnitSelect,
   onEvapSelect,
   selectedUnit,
+  selectedEvap,
 }) {
   const sortedUnits = [...units].sort(
     (a, b) =>
       Number(String(b.btuh).replace(/,/g, "")) -
-      Number(String(a.btuh).replace(/,/g, ""))
+      Number(String(a.btuh).replace(/,/g, "")
+      )
   );
   const sortedEvaps =
     evaps && evaps.length > 0
@@ -68,16 +70,8 @@ export default function ResultsTable({
                   cursor: "pointer",
                   backgroundColor:
                     selectedUnit && selectedUnit.model === unit.model
-                      ? "#e0e0e0 "
+                      ? "#e0e0e0"
                       : "inherit",
-                  color:
-                    selectedUnit && selectedUnit.model === unit.model
-                      ? "#fff"
-                      : "inherit",
-                  fontWeight:
-                    selectedUnit && selectedUnit.model === unit.model
-                      ? 700
-                      : 400,
                 }}
                 onClick={() => onUnitSelect && onUnitSelect(unit)}
               >
@@ -139,7 +133,13 @@ export default function ResultsTable({
               <TableRow
                 key={idx}
                 hover
-                style={{ cursor: "pointer" }}
+                style={{
+                  cursor: "pointer",
+                  backgroundColor:
+                    selectedEvap && selectedEvap.model === evap.model
+                      ? "#e0e0e0"
+                      : "inherit",
+                }}
                 onClick={() => onEvapSelect && onEvapSelect(evap)}
               >
                 <TableCell>{evap.model}</TableCell>

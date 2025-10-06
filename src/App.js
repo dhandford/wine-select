@@ -117,6 +117,7 @@ export default function App() {
                 onUnitSelect={handleUnitSelect}
                 onEvapSelect={handleEvapSelect}
                 selectedUnit={selectedUnit}
+                selectedEvap={selectedEvap}
               />
               {selectedUnit && (
                 <UnitSummary unit={selectedUnit} />
