@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from "@mui/material";
+import CircleIcon from '@mui/icons-material/Circle';
 
 export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelect, onEvapSelect }) {
   console.log(units);
@@ -36,7 +37,14 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
                 onClick={() => onUnitSelect && onUnitSelect(unit)}
               >
                 <TableCell>{unit.model}</TableCell>
-                <TableCell>{unit.btuh}</TableCell>
+                <TableCell>
+                  {Number(String(unit.btuh).replace(/,/g, "")) >= btuh ? (
+                    <CircleIcon fontSize="small" sx={{ color: 'green', verticalAlign: 'middle', mr: 1 }} />
+                  ) : (
+                    <CircleIcon fontSize="small" sx={{ color: 'gold', verticalAlign: 'middle', mr: 1 }} />
+                  )}
+                  {unit.btuh}
+                </TableCell>
                 <TableCell>{unit.refrigerant}</TableCell>
                 <TableCell>{unit.ambient}</TableCell>
                 <TableCell>{unit.cond_temp}</TableCell>
@@ -72,7 +80,14 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
                 onClick={() => onEvapSelect && onEvapSelect(evap)}
               >
                 <TableCell>{evap.model}</TableCell>
-                <TableCell>{evap.btuh}</TableCell>
+                <TableCell>
+                  {Number(String(evap.btuh).replace(/,/g, "")) >= btuh ? (
+                    <CircleIcon fontSize="small" sx={{ color: 'green', verticalAlign: 'middle', mr: 1 }} />
+                  ) : (
+                    <CircleIcon fontSize="small" sx={{ color: 'gold', verticalAlign: 'middle', mr: 1 }} />
+                  )}
+                  {evap.btuh}
+                </TableCell>
                 <TableCell>{evap.refrigerant}</TableCell>
                 <TableCell>{evap.style}</TableCell>
               </TableRow>
