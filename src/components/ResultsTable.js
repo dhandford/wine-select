@@ -80,14 +80,7 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
                 onClick={() => onEvapSelect && onEvapSelect(evap)}
               >
                 <TableCell>{evap.model}</TableCell>
-                <TableCell>
-                  {Number(String(evap.btuh).replace(/,/g, "")) >= btuh ? (
-                    <CircleIcon fontSize="small" sx={{ color: 'green', verticalAlign: 'middle', mr: 1 }} />
-                  ) : (
-                    <CircleIcon fontSize="small" sx={{ color: 'gold', verticalAlign: 'middle', mr: 1 }} />
-                  )}
-                  {evap.btuh}
-                </TableCell>
+                <TableCell>{evap.btuh}</TableCell>
                 <TableCell>{evap.refrigerant}</TableCell>
                 <TableCell>{evap.style}</TableCell>
               </TableRow>
