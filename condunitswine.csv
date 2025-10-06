@@ -1,454 +1,454 @@
-model,compressor,refrigerant,ambient,btuh,cond_temp,voltage,required_addon1,required_addon2,required_addon3,required_addon4,notes
-M6JM-H020-IAA-177,ASE12C4E,R448,90,2350,114,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R448,100,2180,123,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R448,110,1940,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R404,90,2480,110,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R404,100,2190,120,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R404,110,1920,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R407C,90,2430,109,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R407C,100,2200,117,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H020-IAA-177,ASE12C4E,R407C,110,2030,126,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H023-IAA-177,ASE14C4E,R448,90,2760,118,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H023-IAA-177,ASE14C4E,R448,100,2500,126,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H023-IAA-177,ASE14C4E,R448,110,2300,135,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H023-IAA-177,ASE14C4E,R404,90,2780,110,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H023-IAA-177,ASE14C4E,R404,100,2550,124,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6JM-H023-IAA-177,ASE14C4E,R404,110,2260,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0025-IAV-177,ASE20C4E,R448,90,3590,117,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0025-IAV-177,ASE20C4E,R448,100,3210,126,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0025-IAV-177,ASE20C4E,R448,110,2860,134,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0025-IAV-177,ASE20C4E,R404,90,3750,112,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0025-IAV-177,ASE20C4E,R404,100,3320,120,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0025-IAV-177,ASE20C4E,R404,110,2890,132,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R448,90,3420,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R448,100,3070,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R448,110,2720,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R404,90,3310,117,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R404,100,3120,126,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R404,110,2680,134,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R407C,90,3800,108,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R407C,100,3550,119,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H031-IAA-078,ASE20C4E,R407C,110,3340,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0032-IAA-177,ASE24C5E,R448,90,3980,119,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0032-IAA-177,ASE24C5E,R448,100,3630,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0032-IAA-177,ASE24C5E,R448,110,3310,136,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0032-IAA-177,ASE24C5E,R404,90,4260,115,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0032-IAA-177,ASE24C5E,R404,100,3850,123,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0032-IAA-177,ASE24C5E,R404,110,3400,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0048-IAA-272,ASE39C5E,R448,90,5840,131,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0048-IAA-272,ASE39C5E,R448,100,5340,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0048-IAA-272,ASE39C5E,R448,110,NO,NO,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0048-IAA-272,ASE39C5E,R404,90,5910,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0048-IAA-272,ASE39C5E,R404,100,5250,135,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZM-0048-IAA-272,ASE39C5E,R404,110,NO,NO,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-CAV-078,ASE39C5E,R448,90,5330,137,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-CAV-078,ASE39C5E,R448,100,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-CAV-078,ASE39C5E,R448,110,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-CAV-078,ASE39C5E,R404,90,5270,136,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-CAV-078,ASE39C5E,R404,100,no,,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-CAV-078,ASE39C5E,R404,110,no,,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-IAA-272,ASE39C5E,R448,90,5330,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-IAA-272,ASE39C5E,R448,100,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-IAA-272,ASE39C5E,R448,110,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-IAA-272,ASE39C5E,R404,90,5270,136,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-IAA-272,ASE39C5E,R404,100,no,,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6QM-H049-IAA-272,ASE39C5E,R404,110,no,,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R448,90,6030,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R448,100,5420,140,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R448,110,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R404,90,6060,128,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R404,100,5310,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R404,110,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R407C,90,5800,131,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R407C,100,5280,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAA-177,RST45C1E,R407C,110,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R448,90,6030,132,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R448,100,5420,140,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R448,110,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R404,90,6060,128,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R404,100,5310,137,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R404,110,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R407C,90,5800,131,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R407C,100,5280,139,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6ZP-0053-IAV-177,RST45C1E,R407C,110,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R448,90,6450,120,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R448,100,5980,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R448,110,5440,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R404,90,6670,116,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R404,100,6070,125,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R404,110,5370,133,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R407C,90,9180,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R407C,100,8150,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GM-H057-IAA-272,ASE39C5E,R407C,110,NO,NO,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R448,90,7120,121,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R448,100,6500,130,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R448,110,5840,138,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R404,90,6930,117,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R404,100,6240,125,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R404,110,6490,134,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R407C,90,6840,121,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R407C,100,6240,129,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAV-177,RST45C1E,R407C,110,5660,138,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R448,90,7120,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R448,100,6500,130,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R448,110,5840,138,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R404,90,6930,117,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R404,100,6240,125,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R404,110,6490,134,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R407C,90,6840,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R407C,100,6240,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6GP-H064-CAA-177,RST45C1E,R407C,110,5660,138,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M6KP-0075-CFA-072,RST55C1E,R448,90,8650,125,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R448,100,7900,133,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R448,110,7260,140,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R404,90,8310,121,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R404,100,7510,129,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R404,110,6660,137,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R407C,90,8330,124,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R407C,100,7640,132,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CFA-072,RST55C1E,R407C,110,6910,140,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R448,90,8650,125,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R448,100,7900,133,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R448,110,7260,140,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R404,90,8310,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R404,100,7510,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R404,110,6660,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R407C,90,8330,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R407C,100,7640,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0075-CAV-072,RST55C1E,R407C,110,6910,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R448,90,10120,131,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R448,100,9270,139,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R448,110,no,no,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R404,90,9560,127,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R404,100,8670,134,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R404,110,NO,NO,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R407C,90,9650,129,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R407C,100,8790,137,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CFA-072,RST64C1E,R407C,110,NO,NO,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R448,90,10120,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R448,100,9270,139,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R448,110,no,no,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R404,90,9560,127,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R404,100,8670,134,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R404,110,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R407C,90,9650,129,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R407C,100,8790,137,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0092-CAV-072,RST64C1E,R407C,110,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R448,90,12080,115,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R448,100,11150,124,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R448,110,10160,133,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R404,90,11610,110,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R404,100,10590,118,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R404,110,9150,130,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R407C,90,11720,114,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R407C,100,10740,122,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0102-CAV-072,RST64C1E,R407C,110,9740,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R448,90,10960,134,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R448,100,10130,141,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R448,110,no,no,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R404,90,11100,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R404,100,9950,139,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R404,110,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R407C,90,10960,134,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R407C,100,9970,141,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0106-CFV-072,RST80C1E,R407C,110,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R448,90,12020,114,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R448,100,11000,123,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R448,110,10010,132,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R404,90,12200,109,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R404,100,11200,118,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R404,110,9690,129,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R407C,90,11680,113,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R407C,100,10720,122,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-M6KP-0112-CFV-072,RST70C1E,R407C,110,9720,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
-FFAM-A08Z-CFV-075,ZB06KAE,R448,90,9590,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R448,100,8960,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R448,110,8320,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R404,90,10100,111,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R404,100,9250,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R404,110,8430,129,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R407C,90,9060,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R407C,100,8500,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R407C,110,7950,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R134,90,6510,104,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R134,100,6140,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A08Z-CFV-075,ZB06KAE,R134,110,5760,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R448,90,11100,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R448,100,10300,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R448,110,9540,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R404,90,11700,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R404,100,10700,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R404,110,9760,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R407C,90,10700,117,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R407C,100,9990,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R407C,110,9310,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R134,90,7700,107,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R134,100,7260,117,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A10Z-CFV-075,ZB07KAE,R134,110,6800,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R448,90,13300,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R448,100,12300,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R448,110,11400,134,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R404,90,14000,112,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R404,100,12900,121,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R404,110,11800,130,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R407C,90,12700,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R407C,100,11900,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R407C,110,11100,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R134,90,9110,105,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R134,100,8590,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAM-A12Z-CFV-075,ZB08KAE,R134,110,8060,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R448,90,14800,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R448,100,13800,127,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R448,110,12800,136,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R404,90,15400,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R404,100,14200,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R404,110,12900,131,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R407C,90,14000,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R407C,100,13100,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R407C,110,12200,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R134,90,10100,107,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R134,100,9540,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A15Z-CFV-075,ZS09KAE,R134,110,8940,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS09KAE,R448,90,17000,122,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R448,100,15800,131,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R448,110,14700,140,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R404,90,17600,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R404,100,16100,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R404,110,14700,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R407C,90,16100,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R407C,100,15100,129,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R407C,110,14100,138,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R134,90,11800,110,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R134,100,11100,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A17Z-CFV-075,ZS11KAE,R134,110,10400,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R448,90,19800,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R448,100,18500,129,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R448,110,17200,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R404,90,20500,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R404,100,18900,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R404,110,17300,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R407C,90,18800,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R407C,100,17600,127,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R407C,110,16500,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R134,90,13600,109,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R134,100,12900,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A20Z-CFV-075,ZS13KAE,R134,110,12100,127,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R448,90,25300,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R448,100,23700,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R448,110,22100,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R404,90,26700,110,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R404,100,24500,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R404,110,22400,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R407C,90,24000,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R407C,100,22600,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R407C,110,21100,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R134,90,17300,104,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R134,100,16400,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A22Z-CFV-075,ZS15KAE,R134,110,15400,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R448,90,27900,117,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R448,100,26100,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R448,110,24300,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R404,90,29300,112,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R404,100,26900,121,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R404,110,24500,130,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R407C,90,26400,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R407C,100,24900,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R407C,110,23300,134,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R134,90,19100,106,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R134,100,18000,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A30Z-CFV-075,ZS19KAE,R134,110,16900,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R448,90,37300,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R448,100,34700,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R448,110,32100,141,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R404,90,38400,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R404,100,35200,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R404,110,32100,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R407C,90,35600,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R407C,100,33300,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R407C,110,31000,140,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R134,90,26200,112,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R134,100,24700,121,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A32Z-CFV-075,ZS21KAE,R134,110,23100,131,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R448,90,40700,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R448,100,38100,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R448,110,35600,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R404,90,42600,111,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R404,100,39400,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R404,110,36100,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R407C,90,38600,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R407C,100,36300,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R407C,110,34000,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R134,90,27900,105,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R134,100,26400,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A40Z-CFV-075,ZS26KAE,R134,110,24800,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R448,90,50000,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R448,100,46900,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R448,110,43600,136,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R404,90,52000,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R404,100,47900,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R404,110,44000,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R407C,90,50500,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R407C,100,47100,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R407C,110,43800,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R134,90,34800,109,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R134,100,32900,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
-FFAP-A42Z-CFV-075,ZS33KAE,R134,110,30800,128,230,,,,,Unit comes with EUC controller (low pressure control)
-BCH0005MBACZ,ZB06KAE,R448,90,9680,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R448,100,9020,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R448,110,8320,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R404,90,10480,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R404,100,9640,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R404,110,8770,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R407C,90,9050,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R407C,100,8490,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0005MBACZ,ZB06KAE,R407C,110,7900,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R448,90,11150,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R448,100,10440,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R448,110,9710,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R404,90,12370,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R404,100,11350,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R404,110,10310,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R407C,90,10540,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R407C,100,9880,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0008MBACZ,ZB07KAE,R407C,110,9210,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R448,90,12580,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R448,100,11790,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R448,110,9710,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R404,90,13590,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R404,100,12430,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R404,110,11310,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R407C,90,12060,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R407C,100,11280,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0009MBACZ,ZB08KAE,R407C,110,10490,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R448,90,12440,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R448,100,11310,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R448,110,10970,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R404,90,16680,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R404,100,15350,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R404,110,13980,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R407C,90,13360,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R407C,100,12630,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0010MBACZ,ZS09KAE,R407C,110,11890,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0012MBACZ,ZS11KAE,R448,90,18080,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0012MBACZ,ZS11KAE,R448,100,16940,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0012MBACZ,ZS11KAE,R448,110,15740,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0012MBACZ,ZS11KAE,R404,90,19540,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0012MBACZ,ZS11KAE,R404,100,18050,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0012MBACZ,ZS11KAE,R404,110,16490,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R448,90,19570,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R448,100,18250,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R448,110,16790,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R404,90,24210,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R404,100,22360,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R404,110,20480,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R407C,90,19040,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R407C,100,18020,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0015MBACZ,ZS13KAE,R407C,110,17000,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R448,90,22970,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R448,100,21320,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R448,110,19500,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R404,90,28390,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R404,100,26250,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R404,110,23910,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R407C,90,22470,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R407C,100,21240,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0020MBACZ,ZS15KAE,R407C,110,20020,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R448,90,25270,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R448,100,23390,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R448,110,21320,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R404,90,31330,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R404,100,28850,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R404,110,26310,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R407C,90,24930,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R407C,100,23560,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0025MBACZ,ZS19KAE,R407C,110,22180,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0027MBACZ,ZS20KAE,R448,90,34270,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0027MBACZ,ZS20KAE,R448,100,32160,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0027MBACZ,ZS20KAE,R448,110,29950,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0027MBACZ,ZS20KAE,R404,90,37110,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0027MBACZ,ZS20KAE,R404,100,34290,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0027MBACZ,ZS20KAE,R404,110,31340,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R448,90,37270,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R448,100,34940,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R448,110,32600,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R404,90,43740,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R404,100,40300,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R404,110,36830,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R407C,90,35120,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R407C,100,33210,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0030MBACZ,ZS21KAE,R407C,110,31340,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R448,90,41340,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R448,100,38660,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R448,110,35970,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R404,90,48200,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R404,100,44400,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R404,110,40560,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R407C,90,38430,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R407C,100,36370,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0035MBACZ,ZS26KAE,R407C,110,34340,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R448,90,45790,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R448,100,42840,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R448,110,39920,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R404,90,54280,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R404,100,49890,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R404,110,45400,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R407C,90,42540,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R407C,100,40240,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0045MBACZ,ZS29KAE,R407C,110,37910,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R448,90,50040,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R448,100,4670,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R448,110,43230,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R404,90,58310,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R404,100,53500,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R404,110,48680,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R407C,90,46520,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R407C,100,44000,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0050MBACZ,ZS33KAE,R407C,110,41460,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R448,90,55890,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R448,100,51980,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R448,110,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R404,90,59360,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R404,100,54550,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R404,110,49590,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R407C,90,57160,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R407C,100,53900,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0055MBACZ,ZS38K4E,R407C,110,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R448,90,64210,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R448,100,NO,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R448,110,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R404,90,68420,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R404,100,62860,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R404,110,57200,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R407C,90,66930,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R407C,100,63250,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-BCH0060MCACZ,ZS45K4E,R407C,110,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
-M7JH-0018-IAA-078,ARE25C4E,R134,90,2450,124,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7JH-0018-IAA-078,ARE25C4E,R134,100,2260,133,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7JH-0018-IAA-078,ARE25C4E,R134,110,2020,141,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7JH-H029-IAA-177,ARE35C5E,R134,90,3570,119,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7JH-H029-IAA-177,ARE35C5E,R134,100,3350,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7JH-H029-IAA-177,ARE35C5E,R134,110,3130,138,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-0031-IAA-177,ARE35C5E,R134,90,3710,113,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-0031-IAA-177,ARE35C5E,R134,100,3490,123,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-0031-IAA-177,ARE35C5E,R134,110,3260,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-0041-IAA-177,ARE48C5E,R134,90,4800,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-0041-IAA-177,ARE48C5E,R134,100,4480,130,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-0041-IAA-177,ARE48C5E,R134,110,4140,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H046-IAA-272,RRT62C1E,R134,90,5550,122,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H046-IAA-272,RRT62C1E,R134,100,5130,131,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H046-IAA-272,RRT62C1E,R134,110,4700,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H055-CAV-177,RRT64C1E,R134,90,6570,128,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H055-CAV-177,RRT64C1E,R134,100,6010,136,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H055-CAV-177,RRT64C1E,R134,110,5370,145,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7GH-H057-CFA-272,RRT64C1E,R134,90,6800,118,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7GH-H057-CFA-272,RRT64C1E,R134,100,6280,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7GH-H057-CFA-272,RRT64C1E,R134,110,5780,136,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-FPAK-010Z-CFV-072,ZS09KAE,R134,90,9220,121,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-FPAK-010Z-CFV-072,ZS09KAE,R134,100,8650,130,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-FPAK-010Z-CFV-072,ZS09KAE,R134,110,8060,139,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7KH-0086-CFV-072,RRT10K1E,R134,90,9750,128,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7KH-0086-CFV-072,RRT10K1E,R134,100,8970,136,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7KH-0086-CFV-072,RRT10K1E,R134,110,8000,142,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H067-CFV-272,RRT81C1E,R134,90,8070,135,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H067-CFV-272,RRT81C1E,R134,100,7450,142,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
-M7ZH-H067-CFV-272,RRT81C1E,R134,110,NO,NO,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+model,compressor,refrigerant,ambient,btuh_35,btuh,cond_temp,voltage,required_addon1,required_addon2,required_addon3,required_addon4,notes
+M6JM-H020-IAA-177,ASE12C4E,R448,90,2160,2350,114,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R448,100,1990,2180,123,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R448,110,1780,1940,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R404,90,2250,2440,110,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R404,100,2000,2160,120,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R404,110,1760,1900,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R407C,90,2180,2400,109,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R407C,100,1980,2170,117,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H020-IAA-177,ASE12C4E,R407C,110,1800,1980,126,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H023-IAA-177,ASE14C4E,R448,90,2530,2760,118,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H023-IAA-177,ASE14C4E,R448,100,2300,2500,126,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H023-IAA-177,ASE14C4E,R448,110,2110,2300,135,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H023-IAA-177,ASE14C4E,R404,90,2580,2780,110,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H023-IAA-177,ASE14C4E,R404,100,2310,2490,124,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6JM-H023-IAA-177,ASE14C4E,R404,110,2040,2200,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0025-IAV-177,ASE20C4E,R448,90,3300,3590,117,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0025-IAV-177,ASE20C4E,R448,100,2960,3210,126,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0025-IAV-177,ASE20C4E,R448,110,2640,2860,134,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0025-IAV-177,ASE20C4E,R404,90,3450,3720,112,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0025-IAV-177,ASE20C4E,R404,100,3060,3290,120,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0025-IAV-177,ASE20C4E,R404,110,2640,2830,132,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R448,90,3160,3420,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R448,100,2840,3070,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R448,110,2520,2720,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R404,90,3270,3510,117,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R404,100,2890,3090,126,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R404,110,2460,2620,134,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R407C,90,3540,3880,108,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R407C,100,3270,2590,119,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H031-IAA-078,ASE20C4E,R407C,110,2990,3280,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0032-IAA-177,ASE24C5E,R448,90,3650,3980,119,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0032-IAA-177,ASE24C5E,R448,100,3330,3630,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0032-IAA-177,ASE24C5E,R448,110,3030,3310,136,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0032-IAA-177,ASE24C5E,R404,90,3820,4190,115,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0032-IAA-177,ASE24C5E,R404,100,3430,3760,123,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0032-IAA-177,ASE24C5E,R404,110,3000,3280,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0048-IAA-272,ASE39C5E,R448,90,,5840,131,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0048-IAA-272,ASE39C5E,R448,100,,5340,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0048-IAA-272,ASE39C5E,R448,110,,NO,NO,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0048-IAA-272,ASE39C5E,R404,90,,5910,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0048-IAA-272,ASE39C5E,R404,100,,5250,135,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZM-0048-IAA-272,ASE39C5E,R404,110,,NO,NO,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-CAV-078,ASE39C5E,R448,90,,5330,137,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-CAV-078,ASE39C5E,R448,100,,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-CAV-078,ASE39C5E,R448,110,,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-CAV-078,ASE39C5E,R404,90,,5270,136,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-CAV-078,ASE39C5E,R404,100,,no,,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-CAV-078,ASE39C5E,R404,110,,no,,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-IAA-272,ASE39C5E,R448,90,,5330,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-IAA-272,ASE39C5E,R448,100,,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-IAA-272,ASE39C5E,R448,110,,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-IAA-272,ASE39C5E,R404,90,,5270,136,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-IAA-272,ASE39C5E,R404,100,,no,,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6QM-H049-IAA-272,ASE39C5E,R404,110,,no,,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R448,90,,6030,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R448,100,,5420,140,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R448,110,,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R404,90,,6060,128,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R404,100,,5310,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R404,110,,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R407C,90,,5800,131,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R407C,100,,5280,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAA-177,RST45C1E,R407C,110,,no,no,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R448,90,,6030,132,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R448,100,,5420,140,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R448,110,,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R404,90,,6060,128,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R404,100,,5310,137,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R404,110,,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R407C,90,,5800,131,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R407C,100,,5280,139,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6ZP-0053-IAV-177,RST45C1E,R407C,110,,no,no,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R448,90,,6450,120,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R448,100,,5980,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R448,110,,5440,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R404,90,,6670,116,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R404,100,,6070,125,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R404,110,,5370,133,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R407C,90,,9180,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R407C,100,,8150,137,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GM-H057-IAA-272,ASE39C5E,R407C,110,,NO,NO,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R448,90,,7120,121,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R448,100,,6500,130,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R448,110,,5840,138,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R404,90,,6930,117,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R404,100,,6240,125,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R404,110,,6490,134,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R407C,90,,6840,121,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R407C,100,,6240,129,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAV-177,RST45C1E,R407C,110,,5660,138,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R448,90,,7120,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R448,100,,6500,130,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R448,110,,5840,138,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R404,90,,6930,117,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R404,100,,6240,125,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R404,110,,6490,134,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R407C,90,,6840,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R407C,100,,6240,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6GP-H064-CAA-177,RST45C1E,R407C,110,,5660,138,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M6KP-0075-CFA-072,RST55C1E,R448,90,,8650,125,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R448,100,,7900,133,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R448,110,,7260,140,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R404,90,,8310,121,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R404,100,,7510,129,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R404,110,,6660,137,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R407C,90,,8330,124,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R407C,100,,7640,132,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CFA-072,RST55C1E,R407C,110,,6910,140,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R448,90,,8650,125,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R448,100,,7900,133,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R448,110,,7260,140,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R404,90,,8310,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R404,100,,7510,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R404,110,,6660,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R407C,90,,8330,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R407C,100,,7640,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0075-CAV-072,RST55C1E,R407C,110,,6910,,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R448,90,,10120,131,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R448,100,,9270,139,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R448,110,,no,no,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R404,90,,9560,127,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R404,100,,8670,134,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R404,110,,NO,NO,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R407C,90,,9650,129,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R407C,100,,8790,137,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CFA-072,RST64C1E,R407C,110,,NO,NO,115,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R448,90,,10120,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R448,100,,9270,139,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R448,110,,no,no,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R404,90,,9560,127,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R404,100,,8670,134,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R404,110,,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R407C,90,,9650,129,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R407C,100,,8790,137,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0092-CAV-072,RST64C1E,R407C,110,,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R448,90,,12080,115,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R448,100,,11150,124,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R448,110,,10160,133,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R404,90,,11610,110,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R404,100,,10590,118,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R404,110,,9150,130,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R407C,90,,11720,114,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R407C,100,,10740,122,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0102-CAV-072,RST64C1E,R407C,110,,9740,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R448,90,,10960,134,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R448,100,,10130,141,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R448,110,,no,no,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R404,90,,11100,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R404,100,,9950,139,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R404,110,,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R407C,90,,10960,134,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R407C,100,,9970,141,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0106-CFV-072,RST80C1E,R407C,110,,NO,NO,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R448,90,,12020,114,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R448,100,,11000,123,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R448,110,,10010,132,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R404,90,,12200,109,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R404,100,,11200,118,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R404,110,,9690,129,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R407C,90,,11680,113,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R407C,100,,10720,122,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+M6KP-0112-CFV-072,RST70C1E,R407C,110,,9720,131,230,,"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,Unit comes with EUC controller (low pressure control)
+FFAM-A08Z-CFV-075,ZB06KAE,R448,90,,9590,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R448,100,,8960,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R448,110,,8320,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R404,90,,10100,111,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R404,100,,9250,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R404,110,,8430,129,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R407C,90,,9060,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R407C,100,,8500,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R407C,110,,7950,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R134,90,,6510,104,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R134,100,,6140,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A08Z-CFV-075,ZB06KAE,R134,110,,5760,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R448,90,,11100,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R448,100,,10300,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R448,110,,9540,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R404,90,,11700,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R404,100,,10700,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R404,110,,9760,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R407C,90,,10700,117,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R407C,100,,9990,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R407C,110,,9310,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R134,90,,7700,107,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R134,100,,7260,117,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A10Z-CFV-075,ZB07KAE,R134,110,,6800,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R448,90,,13300,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R448,100,,12300,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R448,110,,11400,134,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R404,90,,14000,112,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R404,100,,12900,121,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R404,110,,11800,130,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R407C,90,,12700,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R407C,100,,11900,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R407C,110,,11100,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R134,90,,9110,105,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R134,100,,8590,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAM-A12Z-CFV-075,ZB08KAE,R134,110,,8060,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R448,90,,14800,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R448,100,,13800,127,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R448,110,,12800,136,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R404,90,,15400,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R404,100,,14200,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R404,110,,12900,131,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R407C,90,,14000,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R407C,100,,13100,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R407C,110,,12200,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R134,90,,10100,107,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R134,100,,9540,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A15Z-CFV-075,ZS09KAE,R134,110,,8940,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS09KAE,R448,90,,17000,122,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R448,100,,15800,131,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R448,110,,14700,140,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R404,90,,17600,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R404,100,,16100,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R404,110,,14700,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R407C,90,,16100,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R407C,100,,15100,129,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R407C,110,,14100,138,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R134,90,,11800,110,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R134,100,,11100,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A17Z-CFV-075,ZS11KAE,R134,110,,10400,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R448,90,,19800,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R448,100,,18500,129,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R448,110,,17200,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R404,90,,20500,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R404,100,,18900,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R404,110,,17300,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R407C,90,,18800,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R407C,100,,17600,127,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R407C,110,,16500,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R134,90,,13600,109,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R134,100,,12900,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A20Z-CFV-075,ZS13KAE,R134,110,,12100,127,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R448,90,,25300,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R448,100,,23700,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R448,110,,22100,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R404,90,,26700,110,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R404,100,,24500,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R404,110,,22400,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R407C,90,,24000,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R407C,100,,22600,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R407C,110,,21100,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R134,90,,17300,104,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R134,100,,16400,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A22Z-CFV-075,ZS15KAE,R134,110,,15400,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R448,90,,27900,117,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R448,100,,26100,126,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R448,110,,24300,135,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R404,90,,29300,112,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R404,100,,26900,121,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R404,110,,24500,130,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R407C,90,,26400,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R407C,100,,24900,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R407C,110,,23300,134,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R134,90,,19100,106,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R134,100,,18000,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A30Z-CFV-075,ZS19KAE,R134,110,,16900,125,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R448,90,,37300,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R448,100,,34700,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R448,110,,32100,141,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R404,90,,38400,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R404,100,,35200,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R404,110,,32100,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R407C,90,,35600,123,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R407C,100,,33300,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R407C,110,,31000,140,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R134,90,,26200,112,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R134,100,,24700,121,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A32Z-CFV-075,ZS21KAE,R134,110,,23100,131,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R448,90,,40700,116,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R448,100,,38100,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R448,110,,35600,133,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R404,90,,42600,111,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R404,100,,39400,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R404,110,,36100,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R407C,90,,38600,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R407C,100,,36300,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R407C,110,,34000,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R134,90,,27900,105,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R134,100,,26400,114,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A40Z-CFV-075,ZS26KAE,R134,110,,24800,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R448,90,,50000,120,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R448,100,,46900,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R448,110,,43600,136,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R404,90,,52000,115,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R404,100,,47900,124,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R404,110,,44000,132,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R407C,90,,50500,119,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R407C,100,,47100,128,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R407C,110,,43800,137,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R134,90,,34800,109,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R134,100,,32900,118,230,,,,,Unit comes with EUC controller (low pressure control) and head pressure control valve (for low ambient operation)
+FFAP-A42Z-CFV-075,ZS33KAE,R134,110,,30800,128,230,,,,,Unit comes with EUC controller (low pressure control)
+BCH0005MBACZ,ZB06KAE,R448,90,,9680,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R448,100,,9020,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R448,110,,8320,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R404,90,,10480,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R404,100,,9640,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R404,110,,8770,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R407C,90,,9050,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R407C,100,,8490,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0005MBACZ,ZB06KAE,R407C,110,,7900,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R448,90,,11150,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R448,100,,10440,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R448,110,,9710,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R404,90,,12370,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R404,100,,11350,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R404,110,,10310,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R407C,90,,10540,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R407C,100,,9880,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0008MBACZ,ZB07KAE,R407C,110,,9210,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R448,90,,12580,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R448,100,,11790,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R448,110,,9710,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R404,90,,13590,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R404,100,,12430,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R404,110,,11310,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R407C,90,,12060,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R407C,100,,11280,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0009MBACZ,ZB08KAE,R407C,110,,10490,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R448,90,,12440,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R448,100,,11310,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R448,110,,10970,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R404,90,,16680,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R404,100,,15350,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R404,110,,13980,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R407C,90,,13360,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R407C,100,,12630,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0010MBACZ,ZS09KAE,R407C,110,,11890,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0012MBACZ,ZS11KAE,R448,90,,18080,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0012MBACZ,ZS11KAE,R448,100,,16940,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0012MBACZ,ZS11KAE,R448,110,,15740,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0012MBACZ,ZS11KAE,R404,90,,19540,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0012MBACZ,ZS11KAE,R404,100,,18050,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0012MBACZ,ZS11KAE,R404,110,,16490,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R448,90,,19570,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R448,100,,18250,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R448,110,,16790,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R404,90,,24210,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R404,100,,22360,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R404,110,,20480,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R407C,90,,19040,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R407C,100,,18020,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0015MBACZ,ZS13KAE,R407C,110,,17000,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R448,90,,22970,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R448,100,,21320,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R448,110,,19500,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R404,90,,28390,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R404,100,,26250,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R404,110,,23910,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R407C,90,,22470,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R407C,100,,21240,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0020MBACZ,ZS15KAE,R407C,110,,20020,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R448,90,,25270,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R448,100,,23390,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R448,110,,21320,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R404,90,,31330,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R404,100,,28850,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R404,110,,26310,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R407C,90,,24930,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R407C,100,,23560,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0025MBACZ,ZS19KAE,R407C,110,,22180,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0027MBACZ,ZS20KAE,R448,90,,34270,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0027MBACZ,ZS20KAE,R448,100,,32160,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0027MBACZ,ZS20KAE,R448,110,,29950,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0027MBACZ,ZS20KAE,R404,90,,37110,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0027MBACZ,ZS20KAE,R404,100,,34290,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0027MBACZ,ZS20KAE,R404,110,,31340,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R448,90,,37270,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R448,100,,34940,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R448,110,,32600,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R404,90,,43740,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R404,100,,40300,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R404,110,,36830,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R407C,90,,35120,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R407C,100,,33210,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0030MBACZ,ZS21KAE,R407C,110,,31340,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R448,90,,41340,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R448,100,,38660,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R448,110,,35970,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R404,90,,48200,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R404,100,,44400,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R404,110,,40560,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R407C,90,,38430,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R407C,100,,36370,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0035MBACZ,ZS26KAE,R407C,110,,34340,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R448,90,,45790,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R448,100,,42840,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R448,110,,39920,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R404,90,,54280,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R404,100,,49890,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R404,110,,45400,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R407C,90,,42540,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R407C,100,,40240,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0045MBACZ,ZS29KAE,R407C,110,,37910,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R448,90,,50040,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R448,100,,4670,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R448,110,,43230,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R404,90,,58310,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R404,100,,53500,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R404,110,,48680,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R407C,90,,46520,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R407C,100,,44000,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0050MBACZ,ZS33KAE,R407C,110,,41460,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R448,90,,55890,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R448,100,,51980,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R448,110,,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R404,90,,59360,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R404,100,,54550,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R404,110,,49590,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R407C,90,,57160,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R407C,100,,53900,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0055MBACZ,ZS38K4E,R407C,110,,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R448,90,,64210,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R448,100,,NO,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R448,110,,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R404,90,,68420,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R404,100,,62860,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R404,110,,57200,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R407C,90,,66930,105,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R407C,100,,63250,115,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+BCH0060MCACZ,ZS45K4E,R407C,110,,NO,125,230,,,,,Unit comes with adjsutable low pressure control and head pressure control valve (for low ambient operation)
+M7JH-0018-IAA-078,ARE25C4E,R134,90,,2450,124,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7JH-0018-IAA-078,ARE25C4E,R134,100,,2260,133,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7JH-0018-IAA-078,ARE25C4E,R134,110,,2020,141,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7JH-H029-IAA-177,ARE35C5E,R134,90,,3570,119,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7JH-H029-IAA-177,ARE35C5E,R134,100,,3350,129,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7JH-H029-IAA-177,ARE35C5E,R134,110,,3130,138,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-0031-IAA-177,ARE35C5E,R134,90,,3710,113,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-0031-IAA-177,ARE35C5E,R134,100,,3490,123,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-0031-IAA-177,ARE35C5E,R134,110,,3260,132,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-0041-IAA-177,ARE48C5E,R134,90,,4800,121,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-0041-IAA-177,ARE48C5E,R134,100,,4480,130,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-0041-IAA-177,ARE48C5E,R134,110,,4140,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H046-IAA-272,RRT62C1E,R134,90,,5550,122,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H046-IAA-272,RRT62C1E,R134,100,,5130,131,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H046-IAA-272,RRT62C1E,R134,110,,4700,139,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H055-CAV-177,RRT64C1E,R134,90,,6570,128,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H055-CAV-177,RRT64C1E,R134,100,,6010,136,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H055-CAV-177,RRT64C1E,R134,110,,5370,145,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7GH-H057-CFA-272,RRT64C1E,R134,90,,6800,118,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7GH-H057-CFA-272,RRT64C1E,R134,100,,6280,127,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7GH-H057-CFA-272,RRT64C1E,R134,110,,5780,136,115,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+FPAK-010Z-CFV-072,ZS09KAE,R134,90,,9220,121,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+FPAK-010Z-CFV-072,ZS09KAE,R134,100,,8650,130,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+FPAK-010Z-CFV-072,ZS09KAE,R134,110,,8060,139,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7KH-0086-CFV-072,RRT10K1E,R134,90,,9750,128,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7KH-0086-CFV-072,RRT10K1E,R134,100,,8970,136,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7KH-0086-CFV-072,RRT10K1E,R134,110,,8000,142,230,Unit comes with EUC controller (low pressure control),"Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H067-CFV-272,RRT81C1E,R134,90,,8070,135,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H067-CFV-272,RRT81C1E,R134,100,,7450,142,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
+M7ZH-H067-CFV-272,RRT81C1E,R134,110,,NO,NO,230,"Low Pressure Control (e.g., P70AB-2C)","Fan Cycling Control (e.g., P70AA-118C)"," Swivel Flare Tee (e.g., A31864)",,
