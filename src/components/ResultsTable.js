@@ -4,7 +4,9 @@ import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead
 export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelect, onEvapSelect }) {
   console.log(units);
   const sortedUnits = [...units].sort((a, b) => Number(b.btuh) - Number(a.btuh));
-  const sortedEvaps = [...evaps].sort((a, b) => Number(b.btuh) - Number(a.btuh));
+  const sortedEvaps = evaps && evaps.length > 0
+    ? [...evaps].sort((a, b) => Number(b.btuh) - Number(a.btuh))
+    : [];
   return (
     <Box mt={4}>
       <Typography variant="h5" gutterBottom>Condensing Units</Typography>
