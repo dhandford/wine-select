@@ -70,10 +70,24 @@ export default function App() {
 
   const handleSubmit = (formData) => {
     setQuery(formData);
+
+    // Filter, then sort condunits and evaps by BTUH, highest to lowest
+    const filteredCondunits = filterCondUnits(condunits, formData);
+    const filteredEvaps = filterEvaps(evaps, formData);
+
+    // Sort by BTUH, handling commas and string values
+    const sortedCondunits = [...filteredCondunits].sort(
+      (a, b) => Number(String(b.btuh).replace(/,/g, "")) - Number(String(a.btuh).replace(/,/g, ""))
+    );
+    const sortedEvaps = [...filteredEvaps].sort(
+      (a, b) => Number(String(b.btuh).replace(/,/g, "")) - Number(String(a.btuh).replace(/,/g, ""))
+    );
+
     setResults({
-      condunits: filterCondUnits(condunits, formData),
-      evaps: filterEvaps(evaps, formData),
+      condunits: sortedCondunits,
+      evaps: sortedEvaps,
     });
+
     setSelectedUnit(null); // Clear selection on new search
     setSelectedEvap(null);
   };
