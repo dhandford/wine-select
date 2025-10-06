@@ -1,4 +1,5 @@
 import React from "react";
+import { bpCalc } from "../utils/bpCalc";
 // If you have a bpCalc.js function, import it here
 // import { bpCalc } from "../utils/bpCalc";
 
