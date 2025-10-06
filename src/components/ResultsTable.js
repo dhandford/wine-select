@@ -3,6 +3,7 @@ import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead
 
 export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelect, onEvapSelect }) {
   console.log(units);
+  const sortedUnits = [...units].sort((a, b) => Number(b.btuh) - Number(a.btuh));
   return (
     <Box mt={4}>
       <Typography variant="h5" gutterBottom>Condensing Units</Typography>
@@ -24,7 +25,7 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
                 <TableCell colSpan={5} align="center">No condensing units found.</TableCell>
               </TableRow>
             )}
-            {units.map((unit, idx) => (
+            {sortedUnits.map((unit, idx) => (
               <TableRow
                 key={idx}
                 hover
