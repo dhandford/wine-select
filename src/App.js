@@ -3,48 +3,12 @@ import { Container, CircularProgress, Typography } from "@mui/material";
 import SelectorForm from "./components/SelectorForm";
 import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
+import SystemPerformance from "./components/SystemPerformance"; // <-- Import here!
 import { fetchCSV } from "./utils/csvLoader";
 import Footer from './components/Footer';
-import SystemPerformance from "./components/SystemPerformance";
-
 
 const condunitsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/condunitswine.csv";
 const wineevapsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/wineevaps.csv";
-
-function filterCondUnits(data, { btuh, refrigerant, ambient, voltage }) {
-  return data.filter((row) => {
-    const rowBTUH = Number(row.btuh);
-    const rowAmbient = Number(row.ambient);
-    const formAmbient = Number(ambient);
-    const matchesBTU = rowBTUH && rowBTUH >= btuh * 0.9 && rowBTUH <= btuh * 1.25;
-    const rowRefrig = (row.refrigerant || "").trim().toLowerCase();
-    const formRefrig = (refrigerant || "").trim().toLowerCase();
-    const matchesRefrig = formRefrig === "any" || rowRefrig === formRefrig;
-    const matchesAmbient = rowAmbient === formAmbient;
-    const matchesVoltage = !voltage || String(row.voltage) === String(voltage);
-    return matchesBTU && matchesRefrig && matchesAmbient && matchesVoltage;
-  });
-}
-
-function filterEvaps(data, { btuh, refrigerant, style }) {
-  return data.filter((row) => {
-    // Sanitize BTUH for proper number comparison, handle undefined/null
-    const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
-    // Safely handle missing refrigerant, remove spaces/casing
-    const refrigerantValue = (row.refrigerant || "").trim().toLowerCase();
-    const queryRefrigerant = (refrigerant || "").trim().toLowerCase();
-    const matchesRefrig =
-      refrigerantValue === "any" ||
-      refrigerantValue === queryRefrigerant;
-    // Style filter, safe for missing/optional style
-    const styleValue = (row.style || "").trim();
-    const matchesStyle =
-      !style || styleValue === style || style === "any";
-    const matchesBTU =
-      rowBTUH && rowBTUH >= btuh * 0.9 && rowBTUH <= btuh * 1.25;
-    return matchesBTU && matchesRefrig && matchesStyle;
-  });
-}
 
 export default function App() {
   const [condunits, setCondunits] = useState([]);
@@ -62,10 +26,6 @@ export default function App() {
         fetchCSV(condunitsUrl),
         fetchCSV(wineevapsUrl),
       ]);
-
-      console.log("First condensing unit row:", cu[0]);
-      console.log("First evaporator row:", ev[0]);
-
       setCondunits(cu);
       setEvaps(ev);
       setLoading(false);
@@ -77,10 +37,16 @@ export default function App() {
     setQuery(formData);
 
     // Filter, then sort condunits and evaps by BTUH, highest to lowest
-    const filteredCondunits = filterCondUnits(condunits, formData);
-    const filteredEvaps = filterEvaps(evaps, formData);
+    const filteredCondunits = condunits.filter((row) => {
+      const rowBTUH = Number(row.btuh);
+      return rowBTUH && rowBTUH >= formData.btuh * 0.9 && rowBTUH <= formData.btuh * 1.25;
+    });
+    const filteredEvaps = evaps.filter((row) => {
+      const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
+      return rowBTUH && rowBTUH >= formData.btuh * 0.9 && rowBTUH <= formData.btuh * 1.25;
+    });
 
-    // Sort by BTUH, handling commas and string values
+    // Sort by BTUH
     const sortedCondunits = [...filteredCondunits].sort(
       (a, b) => Number(String(b.btuh).replace(/,/g, "")) - Number(String(a.btuh).replace(/,/g, ""))
     );
@@ -125,15 +91,9 @@ export default function App() {
                 selectedEvap={selectedEvap}
               />
 
+              {/* ---- System Performance box appears when both are selected ---- */}
               {selectedUnit && selectedEvap && (
                 <SystemPerformance unit={selectedUnit} evap={selectedEvap} />
-              )}
-
-              {selectedUnit && selectedEvap && (
-                <SystemPerformance
-                  unit={selectedUnit}
-                  evap={selectedEvap}
-                />
               )}
 
               {selectedUnit && (
