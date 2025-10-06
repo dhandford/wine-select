@@ -1,23 +1,34 @@
-import React from "react";
-import { Box, Typography, List, ListItem, ListItemText, Divider } from "@mui/material";
+import React, { useState } from "react";
+import { Box, Typography, List, ListItem, ListItemText, Divider, IconButton, Tooltip } from "@mui/material";
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function UnitSummary({ unit, type }) {
+  const [copied, setCopied] = useState(false);
+
   if (!unit) return null;
 
-  // Gather all required addon fields for both types
   const addonFields = [
     "required_addon1",
     "required_addon2",
     "required_addon3",
     "required_addon4",
     "required_addon5",
-
   ];
   const addons = addonFields
     .map(field => unit[field])
     .filter(addon => addon && addon.toLowerCase() !== "none");
 
-  console.log("UnitSummary unit:", unit);
+  const handleCopy = async (text) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1200);
+    } catch (err) {
+      setCopied(false);
+    }
+  };
 
   return (
     <Box mt={4} mb={4} border={1} borderRadius={2} sx={{ p: 3, background: "#fff" }}>
@@ -25,7 +36,14 @@ export default function UnitSummary({ unit, type }) {
         {type === "evaporator" ? "Evaporator Summary" : "Unit Summary"}
       </Typography>
       <Divider />
-      <Typography><b>Model:</b> {unit.model}</Typography>
+      <Box display="flex" alignItems="center">
+        <Typography><b>Model:</b> {unit.model}</Typography>
+        <Tooltip title={copied ? "Copied!" : "Copy to clipboard"} arrow>
+          <IconButton size="small" sx={{ ml: 1 }} onClick={() => handleCopy(unit.model)}>
+            <ContentCopyIcon fontSize="small" />
+          </IconButton>
+        </Tooltip>
+      </Box>
       {unit.compressor && <Typography><b>Compressor:</b> {unit.compressor}</Typography>}
       <Typography><b>BTUH:</b> {unit.btuh}</Typography>
       <Typography><b>Refrigerant:</b> {unit.refrigerant}</Typography>
@@ -52,9 +70,6 @@ export default function UnitSummary({ unit, type }) {
           <ListItemText primary={unit.notes || "None"} />
         </ListItem>
       </List>
-
-
-
     </Box>
   );
 }
