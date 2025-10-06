@@ -30,8 +30,9 @@ function isUnitSelected(selectedUnit, unit) {
   return getUnitKey(selectedUnit) === getUnitKey(unit);
 }
 
-// Same for evaporators if needed
+// Helper to make a unique key for each evaporator
 function getEvapKey(evap) {
+  // Add more fields if needed to make it unique
   return [
     evap.model,
     evap.refrigerant,
@@ -40,6 +41,7 @@ function getEvapKey(evap) {
   ].join("|");
 }
 
+// Helper to compare two evaporators
 function isEvapSelected(selectedEvap, evap) {
   if (!selectedEvap || !evap) return false;
   return getEvapKey(selectedEvap) === getEvapKey(evap);
