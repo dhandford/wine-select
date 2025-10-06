@@ -5,6 +5,7 @@ import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
 import { fetchCSV } from "./utils/csvLoader";
 import Footer from './components/Footer';
+import SystemPerformance from "./components/SystemPerformance";
 
 
 const condunitsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/condunitswine.csv";
