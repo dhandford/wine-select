@@ -116,6 +116,7 @@ export default function App() {
                 btuh={query.btuh}
                 onUnitSelect={handleUnitSelect}
                 onEvapSelect={handleEvapSelect}
+                selectedUnit={selectedUnit}
               />
               {selectedUnit && (
                 <UnitSummary unit={selectedUnit} />
