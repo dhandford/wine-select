@@ -14,6 +14,7 @@ export default function SystemPerformance({ unit, evap }) {
         evapBtuh15,
         evapBtuh10,
         boxTemp,
+        targetTD: 15
     });
 
     return (
@@ -32,7 +33,7 @@ export default function SystemPerformance({ unit, evap }) {
             <hr />
             <p>Coil Temp: <b>{result.coilTemp}</b> °F</p>
             <p>Coil TD: <b>{result.coilTD}</b> °F</p>
-            <p>System BTUH: <b>{result.btuh}</b></p>
+            <p>Evap BTUH @ 15°F TD (extrapolated): <b>{result.evapBtuhExtrapolated}</b></p>
         </div>
     );
 }
