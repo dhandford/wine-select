@@ -61,6 +61,10 @@ export default function App() {
         fetchCSV(condunitsUrl),
         fetchCSV(wineevapsUrl),
       ]);
+
+      console.log("First condensing unit row:", cu[0]);
+      console.log("First evaporator row:", ev[0]);
+
       setCondunits(cu);
       setEvaps(ev);
       setLoading(false);
