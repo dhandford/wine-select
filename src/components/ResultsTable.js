@@ -68,7 +68,7 @@ export default function ResultsTable({
                   cursor: "pointer",
                   backgroundColor:
                     selectedUnit && selectedUnit.model === unit.model
-                      ? "#807575ff"
+                      ? "#e0e0e0 "
                       : "inherit",
                   color:
                     selectedUnit && selectedUnit.model === unit.model
