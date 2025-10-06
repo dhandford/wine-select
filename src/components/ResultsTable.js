@@ -33,7 +33,14 @@ export default function ResultsTable({ units = [], evaps = [], btuh, onUnitSelec
               <TableRow
                 key={idx}
                 hover
-                style={{ cursor: 'pointer' }}
+                style={{
+                  cursor: 'pointer',
+                  backgroundColor: selectedUnit && selectedUnit.model === unit.model
+                    ? '#333366'  // Dark blue highlight
+                    : 'inherit',
+                  color: selectedUnit && selectedUnit.model === unit.model ? '#fff' : 'inherit',
+                  fontWeight: selectedUnit && selectedUnit.model === unit.model ? 700 : 400,
+                }}
                 onClick={() => onUnitSelect && onUnitSelect(unit)}
               >
                 <TableCell>{unit.model}</TableCell>
