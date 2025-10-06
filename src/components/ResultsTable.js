@@ -12,6 +12,39 @@ import {
 } from "@mui/material";
 import CircleIcon from "@mui/icons-material/Circle";
 
+// Helper to make a unique key for each unit
+function getUnitKey(unit) {
+  // Add more fields if needed to make it unique
+  return [
+    unit.model,
+    unit.refrigerant,
+    unit.ambient,
+    unit.cond_temp,
+    unit.voltage
+  ].join("|");
+}
+
+// Helper to compare two units
+function isUnitSelected(selectedUnit, unit) {
+  if (!selectedUnit || !unit) return false;
+  return getUnitKey(selectedUnit) === getUnitKey(unit);
+}
+
+// Same for evaporators if needed
+function getEvapKey(evap) {
+  return [
+    evap.model,
+    evap.refrigerant,
+    evap.style,
+    evap.btuh // optional: add more if needed
+  ].join("|");
+}
+
+function isEvapSelected(selectedEvap, evap) {
+  if (!selectedEvap || !evap) return false;
+  return getEvapKey(selectedEvap) === getEvapKey(evap);
+}
+
 export default function ResultsTable({
   units = [],
   evaps = [],
@@ -64,14 +97,13 @@ export default function ResultsTable({
             )}
             {sortedUnits.map((unit, idx) => (
               <TableRow
-                key={idx}
+                key={getUnitKey(unit)}
                 hover
                 style={{
                   cursor: "pointer",
-                  backgroundColor:
-                    selectedUnit && selectedUnit.model === unit.model
-                      ? "#e0e0e0"
-                      : "inherit",
+                  backgroundColor: isUnitSelected(selectedUnit, unit)
+                    ? "#e0e0e0"
+                    : "inherit",
                 }}
                 onClick={() => onUnitSelect && onUnitSelect(unit)}
               >
@@ -131,14 +163,13 @@ export default function ResultsTable({
             )}
             {sortedEvaps.map((evap, idx) => (
               <TableRow
-                key={idx}
+                key={getEvapKey(evap)}
                 hover
                 style={{
                   cursor: "pointer",
-                  backgroundColor:
-                    selectedEvap && selectedEvap.model === evap.model
-                      ? "#e0e0e0"
-                      : "inherit",
+                  backgroundColor: isEvapSelected(selectedEvap, evap)
+                    ? "#e0e0e0"
+                    : "inherit",
                 }}
                 onClick={() => onEvapSelect && onEvapSelect(evap)}
               >
