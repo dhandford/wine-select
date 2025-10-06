@@ -3,7 +3,7 @@ import { Container, CircularProgress, Typography } from "@mui/material";
 import SelectorForm from "./components/SelectorForm";
 import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
-import SystemPerformance from "./components/SystemPerformance"; // <-- Import here!
+import SystemPerformance from "./components/SystemPerformance";
 import { fetchCSV } from "./utils/csvLoader";
 import Footer from './components/Footer';
 
@@ -36,14 +36,42 @@ export default function App() {
   const handleSubmit = (formData) => {
     setQuery(formData);
 
-    // Filter, then sort condunits and evaps by BTUH, highest to lowest
+    // Normalize for matching
+    const selectedRefrigerant = String(formData.refrigerant || "").trim().toLowerCase();
+    const selectedAmbient = String(formData.ambient || "").trim().toLowerCase();
+    const selectedVoltage = String(formData.voltage || "").trim().toLowerCase();
+    const selectedEvapStyle = String(formData.evap_style || "").trim().toLowerCase();
+
+    // Filter condunits by BTUH, refrigerant, ambient, and voltage
     const filteredCondunits = condunits.filter((row) => {
       const rowBTUH = Number(row.btuh);
-      return rowBTUH && rowBTUH >= formData.btuh * 0.9 && rowBTUH <= formData.btuh * 1.25;
+      const rowRefrigerant = String(row.refrigerant || "").trim().toLowerCase();
+      const rowAmbient = String(row.ambient || "").trim().toLowerCase();
+      const rowVoltage = String(row.voltage || "").trim().toLowerCase();
+
+      return (
+        rowBTUH &&
+        rowBTUH >= formData.btuh * 0.9 &&
+        rowBTUH <= formData.btuh * 1.25 &&
+        rowRefrigerant === selectedRefrigerant &&
+        (!selectedAmbient || rowAmbient === selectedAmbient) &&
+        (!selectedVoltage || rowVoltage === selectedVoltage)
+      );
     });
+
+    // Filter evaporators by BTUH, refrigerant, style
     const filteredEvaps = evaps.filter((row) => {
       const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
-      return rowBTUH && rowBTUH >= formData.btuh * 0.9 && rowBTUH <= formData.btuh * 1.25;
+      const rowRefrigerant = String(row.refrigerant || "").trim().toLowerCase();
+      const rowStyle = String(row.style || "").trim().toLowerCase();
+
+      return (
+        rowBTUH &&
+        rowBTUH >= formData.btuh * 0.9 &&
+        rowBTUH <= formData.btuh * 1.25 &&
+        rowRefrigerant === selectedRefrigerant &&
+        (!selectedEvapStyle || rowStyle === selectedEvapStyle)
+      );
     });
 
     // Sort by BTUH
@@ -59,17 +87,12 @@ export default function App() {
       evaps: sortedEvaps,
     });
 
-    setSelectedUnit(null); // Clear selection on new search
+    setSelectedUnit(null);
     setSelectedEvap(null);
   };
 
-  const handleUnitSelect = (unit) => {
-    setSelectedUnit(unit);
-  };
-
-  const handleEvapSelect = (evap) => {
-    setSelectedEvap(evap);
-  };
+  const handleUnitSelect = (unit) => setSelectedUnit(unit);
+  const handleEvapSelect = (evap) => setSelectedEvap(evap);
 
   return (
     <Container maxWidth="md" sx={{ mt: 4 }}>
