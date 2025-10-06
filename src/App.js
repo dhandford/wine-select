@@ -126,6 +126,10 @@ export default function App() {
               />
 
               {selectedUnit && selectedEvap && (
+                <SystemPerformance unit={selectedUnit} evap={selectedEvap} />
+              )}
+
+              {selectedUnit && selectedEvap && (
                 <SystemPerformance
                   unit={selectedUnit}
                   evap={selectedEvap}
