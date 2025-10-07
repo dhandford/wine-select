@@ -67,13 +67,21 @@ export default function App() {
 
       const isUniversalEvap =
         !rowRefrigerant || rowRefrigerant === "all" || rowRefrigerant === "any";
+      const isUniversalStyle =
+        !rowStyle || rowStyle === "all" || rowStyle === "any";
+
+      // Lowercase/trims for selected values okay
+      const selectedRefrigerantLC = String(selectedRefrigerant || "").trim().toLowerCase();
+      const selectedEvapStyleLC = String(selectedEvapStyle || "").trim().toLowerCase();
 
       return (
         rowBTUH &&
         rowBTUH >= formData.btuh * 0.9 &&
         rowBTUH <= formData.btuh * 1.25 &&
-        (!selectedRefrigerant || rowRefrigerant === selectedRefrigerant) &&
-        (!selectedEvapStyle || rowStyle === selectedEvapStyle)
+        // Refrigerant filter: show if universal or matches
+        (isUniversalEvap || rowRefrigerant === selectedRefrigerantLC) &&
+        // Style filter: show if universal or matches
+        (isUniversalStyle || rowStyle === selectedEvapStyleLC)
       );
     });
 
