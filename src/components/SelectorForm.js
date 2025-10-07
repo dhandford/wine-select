@@ -45,24 +45,20 @@ function SelectorForm({ onSubmit }) {
   return (
     <Box mb={4} component="form" onSubmit={handleSubmit}>
       <Grid container spacing={2} direction="column">
-        {/* BTUH Load */}
         <Grid item xs={12}>
           <TextField
-            label="BTUH Load *"
+            label="BTUH Load"
             name="btuh"
             type="number"
             required
             fullWidth
-            variant="outlined"
             value={form.btuh}
             onChange={handleChange}
           />
         </Grid>
-
-        {/* Refrigerant (Optional) */}
         <Grid item xs={12}>
-          <FormControl fullWidth variant="outlined">
-            <InputLabel id="refrigerant-label">Refrigerant</InputLabel>
+          <FormControl fullWidth>
+            <InputLabel id="refrigerant-label" shrink={true}>Refrigerant</InputLabel>
             <Select
               labelId="refrigerant-label"
               id="refrigerant-select"
@@ -84,17 +80,15 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Ambient (Required) */}
         <Grid item xs={12}>
-          <FormControl fullWidth required variant="outlined">
-            <InputLabel id="ambient-label">Ambient Temp of Condensing Unit *</InputLabel>
+          <FormControl fullWidth required>
+            <InputLabel id="ambient-label" shrink={true}>Ambient Temp of Condensing Unit</InputLabel>
             <Select
               labelId="ambient-label"
               id="ambient-select"
               name="ambient"
               value={form.ambient}
-              label="Ambient Temp of Condensing Unit *"
+              label="Ambient Temp"
               onChange={handleChange}
             >
               {ambientOptions.map((a) => (
@@ -105,17 +99,15 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Voltage (Optional) */}
         <Grid item xs={12}>
-          <FormControl fullWidth variant="outlined">
-            <InputLabel id="voltage-label">Voltage (optional)</InputLabel>
+          <FormControl fullWidth>
+            <InputLabel id="voltage-label" shrink={true}>Voltage (optional)</InputLabel>
             <Select
               labelId="voltage-label"
               id="voltage-select"
               name="voltage"
               value={form.voltage}
-              label="Voltage (optional)"
+              label="Voltage"
               onChange={handleChange}
               displayEmpty
               renderValue={
@@ -131,17 +123,15 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Evap Coil Style (Optional) */}
         <Grid item xs={12}>
-          <FormControl fullWidth variant="outlined">
-            <InputLabel id="style-label">Evap Coil Style (optional)</InputLabel>
+          <FormControl fullWidth>
+            <InputLabel id="style-label" shrink={true}>Evap Coil Style (optional)</InputLabel>
             <Select
               labelId="style-label"
               id="style-select"
               name="style"
               value={form.style}
-              label="Evap Coil Style (optional)"
+              label="Evap Coil Style"
               onChange={handleChange}
               displayEmpty
               renderValue={
@@ -157,8 +147,6 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Search Button */}
         <Grid item xs={12}>
           <Button
             type="submit"
@@ -167,13 +155,10 @@ function SelectorForm({ onSubmit }) {
             fullWidth
             sx={{ mt: 2 }}
           >
-            SEARCH
+            Search
           </Button>
         </Grid>
       </Grid>
-      <Box mt={3} textAlign="center" color="text.secondary">
-        Wine Selector v0.2.0
-      </Box>
     </Box>
   );
 }
