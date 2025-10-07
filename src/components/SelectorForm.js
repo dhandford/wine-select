@@ -8,7 +8,6 @@ import {
   InputLabel,
   Select,
   FormControl,
-  FormHelperText,
 } from "@mui/material";
 
 const ambientOptions = ["90", "100", "110"];
@@ -82,9 +81,6 @@ function SelectorForm({ onSubmit }) {
                 </MenuItem>
               ))}
             </Select>
-            <FormHelperText>
-              Choose a refrigerant or leave as "All"
-            </FormHelperText>
           </FormControl>
         </Grid>
 
@@ -131,9 +127,6 @@ function SelectorForm({ onSubmit }) {
                 </MenuItem>
               ))}
             </Select>
-            <FormHelperText>
-              Choose a voltage or leave as "All"
-            </FormHelperText>
           </FormControl>
         </Grid>
 
@@ -159,9 +152,6 @@ function SelectorForm({ onSubmit }) {
                 </MenuItem>
               ))}
             </Select>
-            <FormHelperText>
-              Choose a style or leave as "All"
-            </FormHelperText>
           </FormControl>
         </Grid>
 
