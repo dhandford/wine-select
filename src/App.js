@@ -53,12 +53,11 @@ export default function App() {
         rowBTUH &&
         rowBTUH >= formData.btuh * 0.9 &&
         rowBTUH <= formData.btuh * 1.25 &&
-        (!selectedRefrigerant || rowRefrigerant === selectedRefrigerant)
-          (!selectedAmbient || rowAmbient === selectedAmbient) &&
+        (!selectedRefrigerant || rowRefrigerant === selectedRefrigerant) &&
+        (!selectedAmbient || rowAmbient === selectedAmbient) &&
         (!selectedVoltage || rowVoltage === selectedVoltage)
       );
     });
-
     // Filter evaporators by BTUH, refrigerant, style
     const filteredEvaps = evaps.filter((row) => {
       const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
@@ -69,7 +68,7 @@ export default function App() {
         rowBTUH &&
         rowBTUH >= formData.btuh * 0.9 &&
         rowBTUH <= formData.btuh * 1.25 &&
-        rowRefrigerant === selectedRefrigerant &&
+        (!selectedRefrigerant || rowRefrigerant === selectedRefrigerant) &&
         (!selectedEvapStyle || rowStyle === selectedEvapStyle)
       );
     });
