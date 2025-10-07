@@ -65,6 +65,9 @@ export default function App() {
       const rowRefrigerant = String(row.refrigerant || "").trim().toLowerCase();
       const rowStyle = String(row.style || "").trim().toLowerCase();
 
+      const isUniversalEvap =
+        !rowRefrigerant || rowRefrigerant === "all" || rowRefrigerant === "any";
+
       return (
         rowBTUH &&
         rowBTUH >= formData.btuh * 0.9 &&
