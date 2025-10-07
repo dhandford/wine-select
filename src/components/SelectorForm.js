@@ -8,6 +8,7 @@ import {
   InputLabel,
   Select,
   FormControl,
+  OutlinedInput,
 } from "@mui/material";
 
 const ambientOptions = ["90", "100", "110"];
@@ -68,9 +69,9 @@ function SelectorForm({ onSubmit }) {
               id="refrigerant-select"
               name="refrigerant"
               value={form.refrigerant}
-              label="Refrigerant"
               onChange={handleChange}
               displayEmpty
+              input={<OutlinedInput label="Refrigerant" />}
               renderValue={(selected) => selected ? selected : "All"}
             >
               <MenuItem value="">All</MenuItem>
@@ -92,8 +93,8 @@ function SelectorForm({ onSubmit }) {
               id="ambient-select"
               name="ambient"
               value={form.ambient}
-              label="Ambient Temp of Condensing Unit *"
               onChange={handleChange}
+              input={<OutlinedInput label="Ambient Temp of Condensing Unit *" />}
             >
               {ambientOptions.map((a) => (
                 <MenuItem key={a} value={a}>
@@ -113,9 +114,9 @@ function SelectorForm({ onSubmit }) {
               id="voltage-select"
               name="voltage"
               value={form.voltage}
-              label="Voltage (optional)"
               onChange={handleChange}
               displayEmpty
+              input={<OutlinedInput label="Voltage (optional)" />}
               renderValue={(selected) => selected ? `${selected}V` : "All"}
             >
               <MenuItem value="">All</MenuItem>
@@ -137,9 +138,9 @@ function SelectorForm({ onSubmit }) {
               id="style-select"
               name="style"
               value={form.style}
-              label="Evap Coil Style (optional)"
               onChange={handleChange}
               displayEmpty
+              input={<OutlinedInput label="Evap Coil Style (optional)" />}
               renderValue={(selected) => selected ? selected : "All"}
             >
               <MenuItem value="">All</MenuItem>
@@ -165,7 +166,7 @@ function SelectorForm({ onSubmit }) {
           </Button>
         </Grid>
       </Grid>
-
+      {/* Remove duplicate footer here if needed */}
     </Box>
   );
 }
