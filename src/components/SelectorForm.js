@@ -165,9 +165,7 @@ function SelectorForm({ onSubmit }) {
           </Button>
         </Grid>
       </Grid>
-      <Box mt={3} textAlign="center" color="text.secondary">
-        Wine Selector v0.2.0
-      </Box>
+
     </Box>
   );
 }
