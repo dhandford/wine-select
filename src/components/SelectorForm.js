@@ -71,10 +71,9 @@ function SelectorForm({ onSubmit }) {
               label="Refrigerant"
               onChange={handleChange}
               displayEmpty
+              renderValue={(selected) => selected ? selected : "All"}
             >
-              <MenuItem value="">
-                <em>All</em>
-              </MenuItem>
+              <MenuItem value="">All</MenuItem>
               {refrigerantOptions.map((r) => (
                 <MenuItem key={r} value={r}>
                   {r}
@@ -117,10 +116,9 @@ function SelectorForm({ onSubmit }) {
               label="Voltage (optional)"
               onChange={handleChange}
               displayEmpty
+              renderValue={(selected) => selected ? `${selected}V` : "All"}
             >
-              <MenuItem value="">
-                <em>All</em>
-              </MenuItem>
+              <MenuItem value="">All</MenuItem>
               {voltageOptions.map((v) => (
                 <MenuItem key={v} value={v}>
                   {v}V
@@ -142,10 +140,9 @@ function SelectorForm({ onSubmit }) {
               label="Evap Coil Style (optional)"
               onChange={handleChange}
               displayEmpty
+              renderValue={(selected) => selected ? selected : "All"}
             >
-              <MenuItem value="">
-                <em>All</em>
-              </MenuItem>
+              <MenuItem value="">All</MenuItem>
               {styleOptions.map((s) => (
                 <MenuItem key={s} value={s}>
                   {s}
