@@ -57,7 +57,7 @@ function SelectorForm({ onSubmit }) {
           />
         </Grid>
         <Grid item xs={12}>
-          <FormControl fullWidth required>
+          <FormControl fullWidth>
             <InputLabel>Refrigerant</InputLabel>
             <Select
               name="refrigerant"
@@ -65,6 +65,7 @@ function SelectorForm({ onSubmit }) {
               label="Refrigerant"
               onChange={handleChange}
             >
+              <MenuItem value="">All</MenuItem>
               {refrigerantOptions.map((r) => (
                 <MenuItem key={r} value={r}>
                   {r}
