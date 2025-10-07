@@ -109,6 +109,9 @@ export default function App() {
       );
     });
 
+    console.log("Filtered Evaporators:", filteredEvaps);
+
+
     // Sort by BTUH
     const sortedCondunits = [...filteredCondunits].sort(
       (a, b) => Number(String(b.btuh).replace(/,/g, "")) - Number(String(a.btuh).replace(/,/g, ""))
