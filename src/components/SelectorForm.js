@@ -62,8 +62,8 @@ function SelectorForm({ onSubmit }) {
 
         {/* Refrigerant (Optional) */}
         <Grid item xs={12}>
-          <FormControl fullWidth variant="outlined">
-            <InputLabel id="refrigerant-label">Refrigerant</InputLabel>
+          <FormControl fullWidth required variant="outlined">
+            <InputLabel id="refrigerant-label">Refrigerant*</InputLabel>
             <Select
               labelId="refrigerant-label"
               id="refrigerant-select"
@@ -74,7 +74,7 @@ function SelectorForm({ onSubmit }) {
               input={<OutlinedInput label="Refrigerant" />}
               renderValue={(selected) => selected ? selected : "All"}
             >
-              <MenuItem value="">All</MenuItem>
+
               {refrigerantOptions.map((r) => (
                 <MenuItem key={r} value={r}>
                   {r}
