@@ -74,7 +74,19 @@ export default function App() {
       const selectedRefrigerantLC = String(selectedRefrigerant || "").trim().toLowerCase();
       const selectedEvapStyleLC = String(selectedEvapStyle || "").trim().toLowerCase();
 
-
+      if (!passesBTUH || !passesRefrigerant || !passesStyle) {
+        console.log("Filtered Out:", {
+          model: row.model,
+          rowBTUH,
+          rowRefrigerant,
+          rowStyle,
+          selectedRefrigerantLC,
+          selectedEvapStyleLC,
+          passesBTUH,
+          passesRefrigerant,
+          passesStyle
+        });
+      }
 
       return (
         rowBTUH &&
