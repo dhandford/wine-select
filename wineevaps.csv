@@ -301,34 +301,34 @@ CTE-50EC,CEILING MOUNT EXTERNAL,R22,5091,2995,Temp Control,,,
 CTE-50EC,CEILING MOUNT EXTERNAL,R134,5032,2960,Temp Control,,,
 CTE-50EC,CEILING MOUNT EXTERNAL,R404,5076,2986,Temp Control,,,
 CTE-50EC,CEILING MOUNT EXTERNAL,R448,5091,2995,Temp Control,,,
-DHB04NCRP1AAAM,DUCTED HORIZ,Any,"4,557",3038,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-DHB06NCRP1AAAM,DUCTED HORIZ,Any,"6,571",4381,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-DHB08NCRP1AAAM,DUCTED HORIZ,Any,"8,451",5634,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-DHB10NCRP1AAAM,DUCTED HORIZ,Any,"10,783",7189,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-DVB04NARP1AAAM,DUCTED VERTICAL,Any,"4,072",2715,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-DVB06NARP1AAAM,DUCTED VERTICAL,Any,"6,495",4330,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-DVB08NARP1AAAM,DUCTED VERTICAL,Any,"8,333",5555,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-DVB10NARP1AAAM,DUCTED VERTICAL,Any,"10,704",7136,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-BTOK09,CEILING MOUNT,Any,1350,900,TXV,Solenoid valve and coil,Temp Control,
-BTOK13,CEILING MOUNT,Any,1950,1300,TXV,Solenoid valve and coil,Temp Control,
-BTOK18,CEILING MOUNT,Any,2700,1800,TXV,Solenoid valve and coil,Temp Control,
-BTOK25,CEILING MOUNT,Any,3750,2500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-BTOK35,CEILING MOUNT,Any,5250,3500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-BTOK45,CEILING MOUNT,Any,6750,4500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-BTOK55,CEILING MOUNT,Any,8250,5500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-CK13,CEILING MOUNT,Any,1950,1300,TXV,Solenoid valve and coil,Temp Control,
-CK17,CEILING MOUNT,Any,2550,1700,TXV,Solenoid valve and coil,Temp Control,
-CK23,CEILING MOUNT,Any,3450,2300,TXV,Solenoid valve and coil,Temp Control,
-CK30,CEILING MOUNT,Any,4500,3000,TXV,Solenoid valve and coil,Temp Control,
-CK43,CEILING MOUNT,Any,6450,4300,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-TAK10,CEILING MOUNT,Any,1500,1000,TXV,Solenoid valve and coil,Temp Control,
-TAK13,CEILING MOUNT,Any,1950,1300,TXV,Solenoid valve and coil,Temp Control,
-TAK17,CEILING MOUNT,Any,2550,1700,TXV,Solenoid valve and coil,Temp Control,
-TAK23,CEILING MOUNT,Any,3450,2300,TXV,Solenoid valve and coil,Temp Control,
-TAK30,CEILING MOUNT,Any,4500,3000,TXV,Solenoid valve and coil,Temp Control,
-TAK43,CEILING MOUNT,Any,6450,4300,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-TAK55,CEILING MOUNT,Any,8250,5500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
-VAK06,CEILING MOUNT,Any,900,600,TXV,Solenoid valve and coil,Temp Control,
-VAK08,CEILING MOUNT,Any,1200,800,TXV,Solenoid valve and coil,Temp Control,
-VAK12,CEILING MOUNT,Any,1800,1200,TXV,Solenoid valve and coil,Temp Control,
-VAK17,CEILING MOUNT,Any,2550,1700,TXV,Solenoid valve and coil,Temp Control,
+DHB04NCRP1AAAM,DUCTED HORIZ,any,"4,557",3038,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+DHB06NCRP1AAAM,DUCTED HORIZ,any,"6,571",4381,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+DHB08NCRP1AAAM,DUCTED HORIZ,any,"8,451",5634,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+DHB10NCRP1AAAM,DUCTED HORIZ,any,"10,783",7189,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+DVB04NARP1AAAM,DUCTED VERTICAL,any,"4,072",2715,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+DVB06NARP1AAAM,DUCTED VERTICAL,any,"6,495",4330,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+DVB08NARP1AAAM,DUCTED VERTICAL,any,"8,333",5555,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+DVB10NARP1AAAM,DUCTED VERTICAL,any,"10,704",7136,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+BTOK09,CEILING MOUNT,any,1350,900,TXV,Solenoid valve and coil,Temp Control,
+BTOK13,CEILING MOUNT,any,1950,1300,TXV,Solenoid valve and coil,Temp Control,
+BTOK18,CEILING MOUNT,any,2700,1800,TXV,Solenoid valve and coil,Temp Control,
+BTOK25,CEILING MOUNT,any,3750,2500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+BTOK35,CEILING MOUNT,any,5250,3500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+BTOK45,CEILING MOUNT,any,6750,4500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+BTOK55,CEILING MOUNT,any,8250,5500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+CK13,CEILING MOUNT,any,1950,1300,TXV,Solenoid valve and coil,Temp Control,
+CK17,CEILING MOUNT,any,2550,1700,TXV,Solenoid valve and coil,Temp Control,
+CK23,CEILING MOUNT,any,3450,2300,TXV,Solenoid valve and coil,Temp Control,
+CK30,CEILING MOUNT,any,4500,3000,TXV,Solenoid valve and coil,Temp Control,
+CK43,CEILING MOUNT,any,6450,4300,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+TAK10,CEILING MOUNT,any,1500,1000,TXV,Solenoid valve and coil,Temp Control,
+TAK13,CEILING MOUNT,any,1950,1300,TXV,Solenoid valve and coil,Temp Control,
+TAK17,CEILING MOUNT,any,2550,1700,TXV,Solenoid valve and coil,Temp Control,
+TAK23,CEILING MOUNT,any,3450,2300,TXV,Solenoid valve and coil,Temp Control,
+TAK30,CEILING MOUNT,any,4500,3000,TXV,Solenoid valve and coil,Temp Control,
+TAK43,CEILING MOUNT,any,6450,4300,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+TAK55,CEILING MOUNT,any,8250,5500,TXV,Solenoid valve and coil,Temp Control,"TXV must be external equalized, coil has a distributor and more than one circuit"
+VAK06,CEILING MOUNT,any,900,600,TXV,Solenoid valve and coil,Temp Control,
+VAK08,CEILING MOUNT,any,1200,800,TXV,Solenoid valve and coil,Temp Control,
+VAK12,CEILING MOUNT,any,1800,1200,TXV,Solenoid valve and coil,Temp Control,
+VAK17,CEILING MOUNT,any,2550,1700,TXV,Solenoid valve and coil,Temp Control,
