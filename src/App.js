@@ -70,9 +70,20 @@ export default function App() {
       const isUniversalStyle =
         !rowStyle || rowStyle === "all" || rowStyle === "any";
 
-      // Lowercase/trims for selected values okay
       const selectedRefrigerantLC = String(selectedRefrigerant || "").trim().toLowerCase();
       const selectedEvapStyleLC = String(selectedEvapStyle || "").trim().toLowerCase();
+
+      // Define debug variables using your original logic
+      const passesBTUH =
+        rowBTUH &&
+        rowBTUH >= formData.btuh * 0.9 &&
+        rowBTUH <= formData.btuh * 1.25;
+
+      const passesRefrigerant =
+        isUniversalEvap || rowRefrigerant === selectedRefrigerantLC;
+
+      const passesStyle =
+        isUniversalStyle || rowStyle === selectedEvapStyleLC;
 
       if (!passesBTUH || !passesRefrigerant || !passesStyle) {
         console.log("Filtered Out:", {
@@ -88,13 +99,12 @@ export default function App() {
         });
       }
 
+      // KEEP your original return statement
       return (
         rowBTUH &&
         rowBTUH >= formData.btuh * 0.9 &&
         rowBTUH <= formData.btuh * 1.25 &&
-        // Refrigerant filter: show if universal or matches
         (isUniversalEvap || rowRefrigerant === selectedRefrigerantLC) &&
-        // Style filter: show if universal or matches
         (isUniversalStyle || rowStyle === selectedEvapStyleLC)
       );
     });
