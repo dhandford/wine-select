@@ -39,6 +39,10 @@ function SelectorForm({ onSubmit }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!formData.refrigerant) {
+      setError("Refrigerant is required.");
+      return;
+    }
     onSubmit({ ...form, btuh: parseInt(form.btuh, 10) });
   };
 
