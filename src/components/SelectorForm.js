@@ -1,40 +1,25 @@
 import React, { useState } from "react";
-import {
-  Box,
-  TextField,
-  Button,
-  MenuItem,
-  Grid,
-  InputLabel,
-  Select,
-  FormControl,
-} from "@mui/material";
+import { TextField, Button, MenuItem, Typography } from "@mui/material";
 
-const ambientOptions = ["90", "100", "110"];
-const refrigerantOptions = ["R134", "R404", "R448"];
-const voltageOptions = ["115", "230"];
-const styleOptions = [
-  "DUCTED HORIZ",
-  "RACK MOUNT",
-  "DUCTED RACK MOUNT",
-  "DUCTED VERTICAL",
-  "WALL MOUNT",
-  "RACK MOUNT VERT",
-  "CEILING MOUNT",
-  "CEILING MOUNT EXTERNAL",
-];
-
-function SelectorForm({ onSubmit }) {
-  const [form, setForm] = useState({
+export default function SelectorForm({ onSubmit }) {
+  const [formData, setFormData] = useState({
     btuh: "",
     refrigerant: "",
     ambient: "",
     voltage: "",
-    style: "",
+    evap_style: "",
+    // Add other fields as needed
   });
 
+  const [error, setError] = useState("");
+
   const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+    setError(""); // Clear error on change
   };
 
   const handleSubmit = (e) => {
@@ -43,129 +28,76 @@ function SelectorForm({ onSubmit }) {
       setError("Refrigerant is required.");
       return;
     }
-    onSubmit({ ...form, btuh: parseInt(form.btuh, 10) });
+    // Add other validation if needed
+
+    setError("");
+    onSubmit(formData);
   };
 
   return (
-    <Box mb={4} component="form" onSubmit={handleSubmit}>
-      <Grid container spacing={2} direction="column">
-        <Grid item xs={12}>
-          <TextField
-            label="BTUH Load"
-            name="btuh"
-            type="number"
-            required
-            fullWidth
-            value={form.btuh}
-            onChange={handleChange}
-          />
-        </Grid>
-        <Grid item xs={12}>
-          <FormControl fullWidth>
-            <InputLabel id="refrigerant-label" shrink={true}>Refrigerant</InputLabel>
-            <Select
-              required
-              labelId="refrigerant-label"
-              id="refrigerant-select"
-              name="refrigerant"
-              value={form.refrigerant}
-              label="Refrigerant"
-              onChange={handleChange}
-              displayEmpty
-              renderValue={
-                (selected) => selected ? selected.toUpperCase() : "All"
-              }
-            >
-              <MenuItem value="">All</MenuItem>
-              {refrigerantOptions.map((r) => (
-                <MenuItem key={r} value={r}>
-                  {r}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
-        <Grid item xs={12}>
-          <FormControl fullWidth required>
-            <InputLabel id="ambient-label" shrink={true}>Ambient Temp </InputLabel>
-            <Select
-              labelId="ambient-label"
-              id="ambient-select"
-              name="ambient"
-              value={form.ambient}
-              label="Ambient Temp"
-              onChange={handleChange}
-            >
-              {ambientOptions.map((a) => (
-                <MenuItem key={a} value={a}>
-                  {a}°F
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
-        <Grid item xs={12}>
-          <FormControl fullWidth>
-            <InputLabel id="voltage-label" shrink={true}>Voltage (optional)</InputLabel>
-            <Select
-              labelId="voltage-label"
-              id="voltage-select"
-              name="voltage"
-              value={form.voltage}
-              label="Voltage"
-              onChange={handleChange}
-              displayEmpty
-              renderValue={
-                (selected) => selected ? `${selected}V` : "All"
-              }
-            >
-              <MenuItem value="">All</MenuItem>
-              {voltageOptions.map((v) => (
-                <MenuItem key={v} value={v}>
-                  {v}V
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
-        <Grid item xs={12}>
-          <FormControl fullWidth>
-            <InputLabel id="style-label" shrink={true}>Evap Coil Style (optional)</InputLabel>
-            <Select
-              labelId="style-label"
-              id="style-select"
-              name="style"
-              value={form.style}
-              label="Evap Coil Style"
-              onChange={handleChange}
-              displayEmpty
-              renderValue={
-                (selected) => selected ? selected : "All"
-              }
-            >
-              <MenuItem value="">All</MenuItem>
-              {styleOptions.map((s) => (
-                <MenuItem key={s} value={s}>
-                  {s}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </Grid>
-        <Grid item xs={12}>
-          <Button
-            type="submit"
-            variant="contained"
-            color="primary"
-            fullWidth
-            sx={{ mt: 2 }}
-          >
-            Search
-          </Button>
-        </Grid>
-      </Grid>
-    </Box>
+    <form onSubmit={handleSubmit} style={{ marginBottom: "2rem" }}>
+      <Typography variant="h6" gutterBottom>
+        Select Your System
+      </Typography>
+      <TextField
+        required
+        label="BTUH"
+        name="btuh"
+        type="number"
+        value={formData.btuh}
+        onChange={handleChange}
+        style={{ marginRight: "1rem", minWidth: 120 }}
+      />
+      <TextField
+        required
+        label="Refrigerant"
+        name="refrigerant"
+        value={formData.refrigerant}
+        onChange={handleChange}
+        select
+        style={{ marginRight: "1rem", minWidth: 120 }}
+      >
+        <MenuItem value="">Select</MenuItem>
+        <MenuItem value="R448">R448</MenuItem>
+        <MenuItem value="R449">R449</MenuItem>
+        <MenuItem value="R404A">R404A</MenuItem>
+        {/* Add other refrigerants as needed */}
+      </TextField>
+      <TextField
+        label="Ambient Temp"
+        name="ambient"
+        type="number"
+        value={formData.ambient}
+        onChange={handleChange}
+        style={{ marginRight: "1rem", minWidth: 120 }}
+      />
+      <TextField
+        label="Voltage"
+        name="voltage"
+        value={formData.voltage}
+        onChange={handleChange}
+        style={{ marginRight: "1rem", minWidth: 120 }}
+      />
+      <TextField
+        label="Evaporator Style"
+        name="evap_style"
+        value={formData.evap_style}
+        onChange={handleChange}
+        style={{ marginRight: "1rem", minWidth: 120 }}
+      />
+      <Button
+        type="submit"
+        variant="contained"
+        color="primary"
+        style={{ marginTop: "1rem" }}
+      >
+        Search
+      </Button>
+      {error && (
+        <Typography color="error" style={{ marginTop: "1rem" }}>
+          {error}
+        </Typography>
+      )}
+    </form>
   );
 }
-
-export default SelectorForm;
