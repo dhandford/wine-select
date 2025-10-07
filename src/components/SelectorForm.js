@@ -82,7 +82,7 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth required>
-            <InputLabel id="ambient-label" shrink={true}>Ambient Temp of Condensing Unit</InputLabel>
+            <InputLabel id="ambient-label" shrink={true}>Ambient Temp </InputLabel>
             <Select
               labelId="ambient-label"
               id="ambient-select"
