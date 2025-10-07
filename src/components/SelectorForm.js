@@ -58,7 +58,7 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel id="refrigerant-label">Refrigerant</InputLabel>
+            <InputLabel id="refrigerant-label" shrink={true}>Refrigerant</InputLabel>
             <Select
               labelId="refrigerant-label"
               id="refrigerant-select"
@@ -82,7 +82,7 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth required>
-            <InputLabel id="ambient-label">Ambient Temp of Condensing Unit</InputLabel>
+            <InputLabel id="ambient-label" shrink={true}>Ambient Temp of Condensing Unit</InputLabel>
             <Select
               labelId="ambient-label"
               id="ambient-select"
@@ -101,7 +101,7 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel id="voltage-label">Voltage (optional)</InputLabel>
+            <InputLabel id="voltage-label" shrink={true}>Voltage (optional)</InputLabel>
             <Select
               labelId="voltage-label"
               id="voltage-select"
@@ -125,7 +125,7 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel id="style-label">Evap Coil Style (optional)</InputLabel>
+            <InputLabel id="style-label" shrink={true}>Evap Coil Style (optional)</InputLabel>
             <Select
               labelId="style-label"
               id="style-select"
