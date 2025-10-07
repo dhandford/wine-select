@@ -72,7 +72,7 @@ function SelectorForm({ onSubmit }) {
               onChange={handleChange}
               displayEmpty
               input={<OutlinedInput label="Refrigerant" />}
-              renderValue={(selected) => selected ? selected : "All"}
+              renderValue={(selected) => selected ? selected : ""}
             >
 
               {refrigerantOptions.map((r) => (
@@ -141,7 +141,7 @@ function SelectorForm({ onSubmit }) {
               onChange={handleChange}
               displayEmpty
               input={<OutlinedInput label="Evap Coil Style (optional)" />}
-              renderValue={(selected) => selected ? selected : "All"}
+              renderValue={(selected) => selected ? selected : ""}
             >
               <MenuItem value="">All</MenuItem>
               {styleOptions.map((s) => (
