@@ -9,6 +9,7 @@ import {
   Select,
   FormControl,
   OutlinedInput,
+  Typography,
 } from "@mui/material";
 
 const ambientOptions = ["90", "100", "110"];
@@ -33,23 +34,31 @@ function SelectorForm({ onSubmit }) {
     voltage: "",
     style: "",
   });
+  const [error, setError] = useState("");
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
+    setError("");
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!form.refrigerant) {
+      setError("Refrigerant is required.");
+      return;
+    }
     onSubmit({ ...form, btuh: parseInt(form.btuh, 10) });
   };
 
   return (
     <Box mb={4} component="form" onSubmit={handleSubmit}>
-      <Grid container spacing={2} direction="column">
-        {/* BTUH Load */}
-        <Grid item xs={12}>
+      <Typography variant="h6" gutterBottom>
+        Select Your System
+      </Typography>
+      <Grid container spacing={2} alignItems="flex-end">
+        <Grid item xs={12} sm={2.4}>
           <TextField
-            label="BTUH Load *"
+            label="BTUH *"
             name="btuh"
             type="number"
             required
@@ -59,22 +68,21 @@ function SelectorForm({ onSubmit }) {
             onChange={handleChange}
           />
         </Grid>
-
-        {/* Refrigerant (Optional) */}
-        <Grid item xs={12}>
-          <FormControl fullWidth variant="outlined">
-            <InputLabel id="refrigerant-label">Refrigerant</InputLabel>
+        <Grid item xs={12} sm={2.4}>
+          <FormControl fullWidth required variant="outlined">
+            <InputLabel id="refrigerant-label">Refrigerant *</InputLabel>
             <Select
               labelId="refrigerant-label"
               id="refrigerant-select"
               name="refrigerant"
               value={form.refrigerant}
               onChange={handleChange}
-              displayEmpty
-              input={<OutlinedInput label="Refrigerant" />}
-              renderValue={(selected) => selected ? selected : "All"}
+              input={<OutlinedInput label="Refrigerant *" />}
+              renderValue={(selected) => selected ? selected : "Select"}
             >
-              <MenuItem value="">All</MenuItem>
+              <MenuItem value="">
+                <em>Select</em>
+              </MenuItem>
               {refrigerantOptions.map((r) => (
                 <MenuItem key={r} value={r}>
                   {r}
@@ -83,18 +91,17 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Ambient (Required) */}
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={2.4}>
           <FormControl fullWidth required variant="outlined">
-            <InputLabel id="ambient-label">Ambient Temp of Condensing Unit *</InputLabel>
+            <InputLabel id="ambient-label">Ambient Temp *</InputLabel>
             <Select
               labelId="ambient-label"
               id="ambient-select"
               name="ambient"
               value={form.ambient}
               onChange={handleChange}
-              input={<OutlinedInput label="Ambient Temp of Condensing Unit *" />}
+              input={<OutlinedInput label="Ambient Temp *" />}
+              renderValue={(selected) => selected ? `${selected}°F` : "Select"}
             >
               {ambientOptions.map((a) => (
                 <MenuItem key={a} value={a}>
@@ -104,19 +111,16 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Voltage (Optional) */}
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={2.4}>
           <FormControl fullWidth variant="outlined">
-            <InputLabel id="voltage-label">Voltage (optional)</InputLabel>
+            <InputLabel id="voltage-label">Voltage</InputLabel>
             <Select
               labelId="voltage-label"
               id="voltage-select"
               name="voltage"
               value={form.voltage}
               onChange={handleChange}
-              displayEmpty
-              input={<OutlinedInput label="Voltage (optional)" />}
+              input={<OutlinedInput label="Voltage" />}
               renderValue={(selected) => selected ? `${selected}V` : "All"}
             >
               <MenuItem value="">All</MenuItem>
@@ -128,19 +132,16 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Evap Coil Style (Optional) */}
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={2.4}>
           <FormControl fullWidth variant="outlined">
-            <InputLabel id="style-label">Evap Coil Style (optional)</InputLabel>
+            <InputLabel id="style-label">Evaporator Style</InputLabel>
             <Select
               labelId="style-label"
               id="style-select"
               name="style"
               value={form.style}
               onChange={handleChange}
-              displayEmpty
-              input={<OutlinedInput label="Evap Coil Style (optional)" />}
+              input={<OutlinedInput label="Evaporator Style" />}
               renderValue={(selected) => selected ? selected : "All"}
             >
               <MenuItem value="">All</MenuItem>
@@ -152,21 +153,23 @@ function SelectorForm({ onSubmit }) {
             </Select>
           </FormControl>
         </Grid>
-
-        {/* Search Button */}
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={2.4}>
           <Button
             type="submit"
             variant="contained"
             color="primary"
             fullWidth
-            sx={{ mt: 2 }}
+            sx={{ mt: { xs: 2, sm: 0 } }}
           >
             SEARCH
           </Button>
         </Grid>
       </Grid>
-      {/* Remove duplicate footer here if needed */}
+      {error && (
+        <Typography color="error" sx={{ mt: 2 }}>
+          {error}
+        </Typography>
+      )}
     </Box>
   );
 }
