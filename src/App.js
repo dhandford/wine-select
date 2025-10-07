@@ -117,7 +117,7 @@ export default function App() {
               {/* ---- System Performance box appears when both are selected ---- */}
               {selectedUnit && selectedEvap && (
                 <>
-                  <SystemPerformance unit={selectedUnit} evap={selectedEvap} />
+
                   <SystemResults
                     inputs={{
                       boxTemp: selectedUnit.boxTemp || selectedEvap.boxTemp || query?.boxTemp || 55,
