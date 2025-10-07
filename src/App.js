@@ -6,6 +6,7 @@ import UnitSummary from "./components/UnitSummary";
 import SystemPerformance from "./components/SystemPerformance";
 import { fetchCSV } from "./utils/csvLoader";
 import Footer from './components/Footer';
+import SystemResults from './components/SystemResults';
 
 const condunitsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/condunitswine.csv";
 const wineevapsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/wineevaps.csv";
@@ -115,7 +116,19 @@ export default function App() {
 
               {/* ---- System Performance box appears when both are selected ---- */}
               {selectedUnit && selectedEvap && (
-                <SystemPerformance unit={selectedUnit} evap={selectedEvap} />
+                <>
+                  <SystemPerformance unit={selectedUnit} evap={selectedEvap} />
+                  <SystemResults
+                    inputs={{
+                      boxTemp: selectedUnit.boxTemp || selectedEvap.boxTemp || query?.boxTemp || 55,
+                      evapCapacity10td: selectedEvap.btuh_10td,
+                      suctionTemp1: 35, // Replace with real value if you have one
+                      capacity1: selectedUnit.btuh_35,
+                      suctionTemp2: 40, // Replace with real value if you have one
+                      capacity2: selectedUnit.btuh,
+                    }}
+                  />
+                </>
               )}
 
               {selectedUnit && (
