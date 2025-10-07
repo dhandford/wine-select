@@ -67,6 +67,7 @@ function SelectorForm({ onSubmit }) {
               renderValue={
                 (selected) => selected ? selected.toUpperCase() : "All"
               }
+              displayEmpty // <-- THIS LINE IS IMPORTANT!
             >
               <MenuItem value="">All</MenuItem>
               {refrigerantOptions.map((r) => (
