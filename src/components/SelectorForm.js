@@ -8,6 +8,7 @@ import {
   InputLabel,
   Select,
   FormControl,
+  FormHelperText,
 } from "@mui/material";
 
 const ambientOptions = ["90", "100", "110"];
@@ -71,17 +72,19 @@ function SelectorForm({ onSubmit }) {
               label="Refrigerant"
               onChange={handleChange}
               displayEmpty
-              renderValue={
-                (selected) => selected ? selected.toUpperCase() : "All"
-              }
             >
-              <MenuItem value="">All</MenuItem>
+              <MenuItem value="">
+                <em>All</em>
+              </MenuItem>
               {refrigerantOptions.map((r) => (
                 <MenuItem key={r} value={r}>
                   {r}
                 </MenuItem>
               ))}
             </Select>
+            <FormHelperText>
+              Choose a refrigerant or leave as "All"
+            </FormHelperText>
           </FormControl>
         </Grid>
 
@@ -118,17 +121,19 @@ function SelectorForm({ onSubmit }) {
               label="Voltage (optional)"
               onChange={handleChange}
               displayEmpty
-              renderValue={
-                (selected) => selected ? `${selected}V` : "All"
-              }
             >
-              <MenuItem value="">All</MenuItem>
+              <MenuItem value="">
+                <em>All</em>
+              </MenuItem>
               {voltageOptions.map((v) => (
                 <MenuItem key={v} value={v}>
                   {v}V
                 </MenuItem>
               ))}
             </Select>
+            <FormHelperText>
+              Choose a voltage or leave as "All"
+            </FormHelperText>
           </FormControl>
         </Grid>
 
@@ -144,17 +149,19 @@ function SelectorForm({ onSubmit }) {
               label="Evap Coil Style (optional)"
               onChange={handleChange}
               displayEmpty
-              renderValue={
-                (selected) => selected ? selected : "All"
-              }
             >
-              <MenuItem value="">All</MenuItem>
+              <MenuItem value="">
+                <em>All</em>
+              </MenuItem>
               {styleOptions.map((s) => (
                 <MenuItem key={s} value={s}>
                   {s}
                 </MenuItem>
               ))}
             </Select>
+            <FormHelperText>
+              Choose a style or leave as "All"
+            </FormHelperText>
           </FormControl>
         </Grid>
 
