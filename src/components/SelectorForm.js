@@ -58,16 +58,18 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel>Refrigerant</InputLabel>
+            <InputLabel id="refrigerant-label">Refrigerant</InputLabel>
             <Select
+              labelId="refrigerant-label"
+              id="refrigerant-select"
               name="refrigerant"
               value={form.refrigerant}
               label="Refrigerant"
               onChange={handleChange}
+              displayEmpty
               renderValue={
                 (selected) => selected ? selected.toUpperCase() : "All"
               }
-              displayEmpty // <-- THIS LINE IS IMPORTANT!
             >
               <MenuItem value="">All</MenuItem>
               {refrigerantOptions.map((r) => (
@@ -80,8 +82,10 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth required>
-            <InputLabel>Ambient Temp of Condensing Unit</InputLabel>
+            <InputLabel id="ambient-label">Ambient Temp of Condensing Unit</InputLabel>
             <Select
+              labelId="ambient-label"
+              id="ambient-select"
               name="ambient"
               value={form.ambient}
               label="Ambient Temp"
@@ -97,12 +101,18 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel>Voltage (optional)</InputLabel>
+            <InputLabel id="voltage-label">Voltage (optional)</InputLabel>
             <Select
+              labelId="voltage-label"
+              id="voltage-select"
               name="voltage"
               value={form.voltage}
               label="Voltage"
               onChange={handleChange}
+              displayEmpty
+              renderValue={
+                (selected) => selected ? `${selected}V` : "All"
+              }
             >
               <MenuItem value="">All</MenuItem>
               {voltageOptions.map((v) => (
@@ -115,12 +125,18 @@ function SelectorForm({ onSubmit }) {
         </Grid>
         <Grid item xs={12}>
           <FormControl fullWidth>
-            <InputLabel>Evap Coil Style (optional)</InputLabel>
+            <InputLabel id="style-label">Evap Coil Style (optional)</InputLabel>
             <Select
+              labelId="style-label"
+              id="style-select"
               name="style"
               value={form.style}
               label="Evap Coil Style"
               onChange={handleChange}
+              displayEmpty
+              renderValue={
+                (selected) => selected ? selected : "All"
+              }
             >
               <MenuItem value="">All</MenuItem>
               {styleOptions.map((s) => (
