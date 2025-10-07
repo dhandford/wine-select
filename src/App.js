@@ -53,8 +53,8 @@ export default function App() {
         rowBTUH &&
         rowBTUH >= formData.btuh * 0.9 &&
         rowBTUH <= formData.btuh * 1.25 &&
-        rowRefrigerant === selectedRefrigerant &&
-        (!selectedAmbient || rowAmbient === selectedAmbient) &&
+        (!selectedRefrigerant || rowRefrigerant === selectedRefrigerant)
+          (!selectedAmbient || rowAmbient === selectedAmbient) &&
         (!selectedVoltage || rowVoltage === selectedVoltage)
       );
     });
