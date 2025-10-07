@@ -117,9 +117,9 @@ function SelectorForm({ onSubmit }) {
               onChange={handleChange}
               displayEmpty
               input={<OutlinedInput label="Voltage (optional)" />}
-              renderValue={(selected) => selected ? `${selected}V` : "All"}
+              renderValue={(selected) => selected ? `${selected}V` : ""}
             >
-              <MenuItem value="">All</MenuItem>
+
               {voltageOptions.map((v) => (
                 <MenuItem key={v} value={v}>
                   {v}V
