@@ -60,6 +60,7 @@ function SelectorForm({ onSubmit }) {
           <FormControl fullWidth>
             <InputLabel id="refrigerant-label" shrink={true}>Refrigerant</InputLabel>
             <Select
+              required
               labelId="refrigerant-label"
               id="refrigerant-select"
               name="refrigerant"
