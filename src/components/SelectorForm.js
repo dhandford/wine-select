@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 const ambientOptions = ["90", "100", "110"];
-const refrigerantOptions = ["r22", "r134", "r404", "r448"];
+const refrigerantOptions = ["R134", "R404", "R448"];
 const voltageOptions = ["115", "230"];
 const styleOptions = [
   "DUCTED HORIZ",
