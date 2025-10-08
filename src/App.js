@@ -61,6 +61,7 @@ export default function App() {
     });
 
     // Filter evaporators by BTUH, refrigerant, style
+    const selectedEvapStyleLC = String(selectedEvapStyle || "").trim().toLowerCase()
     console.log("Selected Evap Style (lowercase):", selectedEvapStyleLC);
     const filteredEvaps = evaps.filter((row) => {
       const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
@@ -73,7 +74,7 @@ export default function App() {
         !rowStyle || rowStyle === "all" || rowStyle === "any";
 
       const selectedRefrigerantLC = String(selectedRefrigerant || "").trim().toLowerCase();
-      const selectedEvapStyleLC = String(selectedEvapStyle || "").trim().toLowerCase();
+
 
       // Define debug variables using your original logic
       const passesBTUH =
