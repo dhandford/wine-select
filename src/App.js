@@ -191,14 +191,16 @@ export default function App() {
                           borderRadius: "8px",
                           background: "#fff",
                           p: 2,
-                          display: "flex",
-                          alignItems: "center",
                           minHeight: 60,
                         }}
                       >
-                        <Typography>
-                          {summaryItems.join(", ")}
-                        </Typography>
+                        <ul style={{ margin: 0, paddingLeft: "1.25em" }}>
+                          {summaryItems.map((item, idx) => (
+                            <li key={idx}>
+                              <Typography>{item}</Typography>
+                            </li>
+                          ))}
+                        </ul>
                       </Box>
                     );
                   })()}
