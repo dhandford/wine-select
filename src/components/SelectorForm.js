@@ -31,7 +31,7 @@ function SelectorForm({ onSubmit }) {
     refrigerant: "",
     ambient: "",
     voltage: "",
-    style: "",
+    evap_style: "",
   });
 
   const handleChange = (e) => {
@@ -136,8 +136,8 @@ function SelectorForm({ onSubmit }) {
             <Select
               labelId="style-label"
               id="style-select"
-              name="style"
-              value={form.style}
+              name="evap_style"
+              value={form.evap_style}
               onChange={handleChange}
               displayEmpty
               input={<OutlinedInput label="Evap Coil Style (optional)" />}
