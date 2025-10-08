@@ -61,6 +61,7 @@ export default function App() {
     });
 
     // Filter evaporators by BTUH, refrigerant, style
+    console.log("Selected Evap Style (lowercase):", selectedEvapStyleLC);
     const filteredEvaps = evaps.filter((row) => {
       const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
       const rowRefrigerant = String(row.refrigerant || "").trim().toLowerCase();
