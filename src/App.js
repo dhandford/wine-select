@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, CircularProgress, Typography } from "@mui/material";
+import { Container, CircularProgress, Typography, Box } from "@mui/material";
 import SelectorForm from "./components/SelectorForm";
 import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
@@ -160,6 +160,33 @@ export default function App() {
                       capacity2: selectedUnit.btuh,
                     }}
                   />
+
+                  <Box
+                    sx={{
+                      mt: 2,
+                      mb: 2,
+                      border: "1px solid #ccc",
+                      borderRadius: "8px",
+                      background: "#fff",
+                      p: 2,
+                      display: "flex",
+                      alignItems: "center",
+                      minHeight: 60,
+                    }}
+                  >
+                    <Typography>
+                      {[
+                        selectedUnit?.model,
+                        selectedEvap?.model,
+                        ...(selectedEvap?.requiredAddOns ||
+                          [selectedEvap?.valveType, selectedEvap?.coilType, selectedEvap?.controlType].filter(Boolean)
+                        )
+                      ]
+                        .filter(Boolean)
+                        .join(", ")}
+                    </Typography>
+                  </Box>
+
                 </>
               )}
 
