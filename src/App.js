@@ -59,6 +59,7 @@ export default function App() {
         (!selectedVoltage || rowVoltage === selectedVoltage)
       );
     });
+
     // Filter evaporators by BTUH, refrigerant, style
     const filteredEvaps = evaps.filter((row) => {
       const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
@@ -80,7 +81,7 @@ export default function App() {
         rowBTUH <= formData.btuh * 1.25;
 
       const passesRefrigerant =
-        isUniversalEvap || rowRefrigerant === selectedRefrigerantLC;
+        !selectedRefrigerantLC || isUniversalEvap || rowRefrigerant === selectedRefrigerantLC;
 
       const passesStyle =
         !selectedEvapStyleLC || isUniversalStyle || rowStyle === selectedEvapStyleLC;
@@ -99,18 +100,11 @@ export default function App() {
         });
       }
 
-      // KEEP your original return statement
-      return (
-        rowBTUH &&
-        rowBTUH >= formData.btuh * 0.9 &&
-        rowBTUH <= formData.btuh * 1.25 &&
-        (isUniversalEvap || rowRefrigerant === selectedRefrigerantLC) &&
-        (isUniversalStyle || rowStyle === selectedEvapStyleLC)
-      );
+      // FINAL: Use debug flags to filter
+      return passesBTUH && passesRefrigerant && passesStyle;
     });
 
     console.log("Filtered Evaporators:", filteredEvaps);
-
 
     // Sort by BTUH
     const sortedCondunits = [...filteredCondunits].sort(
