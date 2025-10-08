@@ -41,7 +41,7 @@ export default function App() {
     const selectedRefrigerant = String(formData.refrigerant || "").trim().toLowerCase();
     const selectedAmbient = String(formData.ambient || "").trim().toLowerCase();
     const selectedVoltage = String(formData.voltage || "").trim().toLowerCase();
-    const selectedEvapStyle = String(formData.evap_style || "").trim().toLowerCase();
+    const selectedEvapStyleLC = cleanStr(selectedEvapStyle);
     const cleanStr = s => String(s || "").replace(/\s+/g, ' ').trim().toLowerCase();
 
     // Filter condunits by BTUH, refrigerant, ambient, and voltage
@@ -67,7 +67,7 @@ export default function App() {
     const filteredEvaps = evaps.filter((row) => {
       const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
       const rowRefrigerant = String(row.refrigerant || "").trim().toLowerCase();
-      const rowStyle = String(row.style || "").trim().toLowerCase();
+      const rowStyle = cleanStr(row.style);
 
       const isUniversalEvap =
         !rowRefrigerant || rowRefrigerant === "all" || rowRefrigerant === "any";
