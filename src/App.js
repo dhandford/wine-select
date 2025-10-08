@@ -84,7 +84,7 @@ export default function App() {
         !selectedRefrigerantLC || isUniversalEvap || rowRefrigerant === selectedRefrigerantLC;
 
       const passesStyle =
-        !selectedEvapStyleLC || isUniversalStyle || rowStyle === selectedEvapStyleLC;
+        !selectedEvapStyleLC || rowStyle === selectedEvapStyleLC;
 
       if (!passesBTUH || !passesRefrigerant || !passesStyle) {
         console.log("Filtered Out:", {
