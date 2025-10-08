@@ -161,31 +161,47 @@ export default function App() {
                     }}
                   />
 
-                  <Box
-                    sx={{
-                      mt: 2,
-                      mb: 2,
-                      border: "1px solid #ccc",
-                      borderRadius: "8px",
-                      background: "#fff",
-                      p: 2,
-                      display: "flex",
-                      alignItems: "center",
-                      minHeight: 60,
-                    }}
-                  >
-                    <Typography>
-                      {[
-                        selectedUnit?.model,
-                        selectedEvap?.model,
-                        ...(selectedEvap?.requiredAddOns ||
-                          [selectedEvap?.valveType, selectedEvap?.coilType, selectedEvap?.controlType].filter(Boolean)
-                        )
-                      ]
-                        .filter(Boolean)
-                        .join(", ")}
-                    </Typography>
-                  </Box>
+                  {(() => {
+                    const addonFields = [
+                      "required_addon1",
+                      "required_addon2",
+                      "required_addon3",
+                      "required_addon4",
+                      "required_addon5",
+                    ];
+                    const unitAddons = addonFields
+                      .map(field => selectedUnit?.[field])
+                      .filter(addon => addon && addon.toLowerCase() !== "none");
+                    const evapAddons = addonFields
+                      .map(field => selectedEvap?.[field])
+                      .filter(addon => addon && addon.toLowerCase() !== "none");
+                    const summaryItems = [
+                      selectedUnit?.model,
+                      selectedEvap?.model,
+                      ...unitAddons,
+                      ...evapAddons
+                    ].filter(Boolean);
+
+                    return (
+                      <Box
+                        sx={{
+                          mt: 2,
+                          mb: 2,
+                          border: "1px solid #ccc",
+                          borderRadius: "8px",
+                          background: "#fff",
+                          p: 2,
+                          display: "flex",
+                          alignItems: "center",
+                          minHeight: 60,
+                        }}
+                      >
+                        <Typography>
+                          {summaryItems.join(", ")}
+                        </Typography>
+                      </Box>
+                    );
+                  })()}
 
                 </>
               )}
