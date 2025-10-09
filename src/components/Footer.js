@@ -6,7 +6,7 @@ export default function Footer() {
             Wine Selector v{APP_VERSION}
             <br />
             <span style={{ fontSize: 12 }}>
-                Capacity figures from published sources.
+                Capacity figures are from manufacturer's published sources.
             </span>
         </footer>
     );
