@@ -40,11 +40,11 @@ export default function SystemPerformance({ unit, evap }) {
             <p>Coil TD: <b>{result.coilTD}</b> °F</p>
             <p>Evap BTUH @ 15°F TD (extrapolated): <b>{result.evapBtuhExtrapolated}</b></p>
 
-<hr />
-<p><b>Derated System Performance:</b></p>
-<p>Balanced SST (derated): <b>{deratedSST.toFixed(1)}</b> °F</p>
-<p>Balanced Capacity (derated): <b>{deratedCapacity}</b> BTU/hr</p>
-<p>Balanced TD: <b>{deratedTD}</b> °F</p>
+            <hr />
+            <p><b>Derated System Performance:</b></p>
+            <p>Balanced SST (derated): <b>{deratedSST.toFixed(1)}</b> °F</p>
+            <p>Balanced Capacity (derated): <b>{deratedCapacity}</b> BTU/hr</p>
+            <p>Balanced TD: <b>{deratedTD}</b> °F</p>
 
 
         </div>

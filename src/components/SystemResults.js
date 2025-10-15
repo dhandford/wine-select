@@ -20,7 +20,7 @@ ChartJS.register(
     Title,
     Tooltip,
     Legend,
-    CategoryScale
+    CategoryScale,
     ScatterController
 );
 
@@ -79,26 +79,30 @@ function calculatePerformance({
     }
 
     return {
-        balancedSST: balancedSST.toFixed(1),
-        balancedCapacity: balancedCapacity.toFixed(0),
-        balancedTD: balancedTD.toFixed(1),
+        balancedSST: balancedSST,
+        balancedCapacity: balancedCapacity,
+        balancedTD: balancedTD,
         humidityEstimate,
         chart: {
             labels,
             evapData,
             cuData,
-            balancePoint: { x: Number(balancedSST.toFixed(1)), y: Number(balancedCapacity.toFixed(0)) }
+            balancePoint: { x: balancedSST, y: balancedCapacity }
         }
     };
 }
 
 function SystemResults({ inputs }) {
-    // inputs: { boxTemp, evapCapacity10td, suctionTemp1, capacity1, suctionTemp2, capacity2 }
     const results = calculatePerformance(inputs);
 
     if (results.error) {
         return <div style={{ color: "red" }}>{results.error}</div>;
     }
+
+    // Derated results
+    const deratedSST = (results.balancedSST - 1.8).toFixed(1);
+    const deratedCapacity = Math.round(results.balancedCapacity * 0.97);
+    const deratedTD = results.balancedTD.toFixed(1);
 
     const data = {
         labels: results.chart.labels,
@@ -177,11 +181,14 @@ function SystemResults({ inputs }) {
         <div>
             <h3>System Performance Results</h3>
             <ul>
-                <li><strong>Balanced SST:</strong> {results.balancedSST} °F</li>
-                <li><strong>Balanced Capacity:</strong> {results.balancedCapacity} BTU/hr</li>
-                <li><strong>Balanced TD:</strong> {results.balancedTD} °F</li>
+                <li><strong>Balanced SST:</strong> {deratedSST} °F</li>
+                <li><strong>Balanced Capacity:</strong> {deratedCapacity} BTU/hr</li>
+                <li><strong>Balanced TD:</strong> {deratedTD} °F</li>
                 <li><strong>Humidity Estimate:</strong> {results.humidityEstimate}</li>
             </ul>
+            <p style={{ fontStyle: "italic", color: "#555" }}>
+                * Note: Ratings include typical suction line losses.
+            </p>
             <Line data={data} options={options} />
         </div>
     );
