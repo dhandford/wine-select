@@ -9,6 +9,7 @@ import {
     Tooltip,
     Legend,
     CategoryScale,
+    ScatterController, 
 } from "chart.js";
 
 // Register Chart.js components
@@ -20,6 +21,7 @@ ChartJS.register(
     Tooltip,
     Legend,
     CategoryScale
+    ScatterController
 );
 
 function calculatePerformance({
