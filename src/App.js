@@ -81,7 +81,7 @@ export default function App() {
       console.log(`BTUH Range: ${formData.btuh * 0.8} - ${formData.btuh * 1.25}, Row BTUH: ${rowBTUH}`);
       const passesBTUH =
         rowBTUH &&
-        rowBTUH >= formData.btuh * 0.6 &&
+        rowBTUH >= formData.btuh * 0.8 &&
         rowBTUH <= formData.btuh * 1.25;
 
       const passesRefrigerant =
