@@ -88,8 +88,10 @@ export default function App() {
   passesBTUH: rowBTUH >= inputBTUH * 0.5 && rowBTUH <= inputBTUH * 1.25
 });
       const passesBTUH =
-        rowBTUH >= inputBTUH * 0.5 &&
-        rowBTUH <= inputBTUH * 1.25;
+  typeof rowBTUH === 'number' &&
+  !isNaN(rowBTUH) &&
+  rowBTUH >= inputBTUH * 0.5 &&
+  rowBTUH <= inputBTUH * 1.25;
 
       const passesRefrigerant =
         !selectedRefrigerantLC || isUniversalEvap || rowRefrigerant === selectedRefrigerantLC;
