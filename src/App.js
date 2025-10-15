@@ -8,8 +8,8 @@ import { fetchCSV } from "./utils/csvLoader";
 import Footer from './components/Footer';
 import SystemResults from './components/SystemResults';
 
-const condunitsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/condunitswine.csv";
-const wineevapsUrl = "https://raw.githubusercontent.com/dhandford/wine-select/main/wineevaps.csv";
+const condunitsUrl = "/wineselect/condunitswine.csv";
+const wineevapsUrl = "/wineselect/wineevaps.csv";
 
 export default function App() {
   const [condunits, setCondunits] = useState([]);
