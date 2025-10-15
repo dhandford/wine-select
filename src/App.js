@@ -53,7 +53,7 @@ export default function App() {
 
       return (
         rowBTUH &&
-        rowBTUH >= formData.btuh * 0.9 &&
+        rowBTUH >= formData.btuh * 0.5 &&
         rowBTUH <= formData.btuh * 1.25 &&
         (!selectedRefrigerant || rowRefrigerant === selectedRefrigerant) &&
         (!selectedAmbient || rowAmbient === selectedAmbient) &&
@@ -79,9 +79,9 @@ export default function App() {
 
 
       // Define debug variables using your original logic
-      console.log(`BTUH Range: ${inputBTUH * 0.8} - ${inputBTUH * 1.25}, Row BTUH: ${rowBTUH}`);
+      console.log(`BTUH Range: ${inputBTUH * 0.5} - ${inputBTUH * 1.25}, Row BTUH: ${rowBTUH}`);
       const passesBTUH =
-        rowBTUH >= inputBTUH * 0.8 &&
+        rowBTUH >= inputBTUH * 0.5 &&
         rowBTUH <= inputBTUH * 1.25;
 
       const passesRefrigerant =
