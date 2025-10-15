@@ -66,7 +66,7 @@ export default function App() {
     console.log("Selected Evap Style (lowercase):", selectedEvapStyleLC);
       const inputBTUH = Number(formData.btuh);
       const filteredEvaps = evaps.filter((row) => {
-      const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
+      const rowBTUH = Number(String(row.btuh || row.BTUH || row['BTUH'] || "").replace(/[^\d.]/g, ''));
       const rowRefrigerant = String(row.refrigerant || "").trim().toLowerCase();
       const rowStyle = cleanStr(row.style);
 
@@ -80,6 +80,13 @@ export default function App() {
 
       // Define debug variables using your original logic
       console.log(`BTUH Range: ${inputBTUH * 0.5} - ${inputBTUH * 1.25}, Row BTUH: ${rowBTUH}`);
+      console.log({
+  inputBTUH,
+  rowBTUH,
+  typeof_inputBTUH: typeof inputBTUH,
+  typeof_rowBTUH: typeof rowBTUH,
+  passesBTUH: rowBTUH >= inputBTUH * 0.5 && rowBTUH <= inputBTUH * 1.25
+});
       const passesBTUH =
         rowBTUH >= inputBTUH * 0.5 &&
         rowBTUH <= inputBTUH * 1.25;
