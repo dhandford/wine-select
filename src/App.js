@@ -79,10 +79,10 @@ export default function App() {
 
 
       // Define debug variables using your original logic
-      console.log(`BTUH Range: ${formData.btuh * 0.8} - ${formData.btuh * 1.25}, Row BTUH: ${rowBTUH}`);
-      const inputBTUH =
-        rowBTUH >= formData.btuh * 0.8 &&
-        rowBTUH <= formData.btuh * 1.25;
+      console.log(`BTUH Range: ${inputBTUH * 0.8} - ${inputBTUH * 1.25}, Row BTUH: ${rowBTUH}`);
+      const passesBTUH =
+        rowBTUH >= inputBTUH * 0.8 &&
+        rowBTUH <= inputBTUH * 1.25;
 
       const passesRefrigerant =
         !selectedRefrigerantLC || isUniversalEvap || rowRefrigerant === selectedRefrigerantLC;
