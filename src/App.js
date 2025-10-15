@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, CircularProgress, Typography, Box } from "@mui/material";
+import { Button } from "@mui/material";
 import SelectorForm from "./components/SelectorForm";
 import ResultsTable from "./components/ResultsTable";
 import UnitSummary from "./components/UnitSummary";
@@ -226,6 +227,20 @@ console.log({
                         <Typography variant="h5" gutterBottom sx={{ mt: 2 }}>
       System Summary (includes required addons)
     </Typography><hr />
+
+ {/* Copy Results Button */}
+  <Button
+    variant="outlined"
+    size="small"
+    sx={{ mb: 1 }}
+    onClick={() => {
+      const text = summaryItems.join('\n');
+      navigator.clipboard.writeText(text);
+    }}
+  >
+    Copy Results
+  </Button>
+
                         <ul style={{ margin: 0, paddingLeft: "1.25em" }}>
                           {summaryItems.map((item, idx) => (
                             <li key={idx}>
