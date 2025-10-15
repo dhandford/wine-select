@@ -224,7 +224,7 @@ console.log({
                       >
 
                         <Typography variant="h5" gutterBottom sx={{ mt: 2 }}>
-      System Summary
+      System Summary (includes required addons)
     </Typography><hr />
                         <ul style={{ margin: 0, paddingLeft: "1.25em" }}>
                           {summaryItems.map((item, idx) => (
