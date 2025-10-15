@@ -225,7 +225,7 @@ console.log({
 
                         <Typography variant="h5" gutterBottom sx={{ mt: 2 }}>
       System Summary
-    </Typography>
+    </Typography><hr />
                         <ul style={{ margin: 0, paddingLeft: "1.25em" }}>
                           {summaryItems.map((item, idx) => (
                             <li key={idx}>
