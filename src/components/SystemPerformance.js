@@ -17,6 +17,11 @@ export default function SystemPerformance({ unit, evap }) {
         targetTD: 15
     });
 
+    // Derating calculations
+    const deratedSST = result.coilTemp - 1.8;
+    const deratedCapacity = Math.round(result.evapBtuhExtrapolated * 0.97);
+    const deratedTD = result.coilTD; // unchanged
+
     return (
         <div style={{
             margin: "2rem 0",
