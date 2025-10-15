@@ -87,6 +87,19 @@ export default function App() {
   typeof_rowBTUH: typeof rowBTUH,
   passesBTUH: rowBTUH >= inputBTUH * 0.5 && rowBTUH <= inputBTUH * 1.25
 });
+
+console.log({
+  inputBTUH,
+  typeof_inputBTUH: typeof inputBTUH,
+  rowBTUH,
+  typeof_rowBTUH: typeof rowBTUH
+});
+
+console.log({
+  check1: rowBTUH >= inputBTUH * 0.5,
+  check2: rowBTUH <= inputBTUH * 1.25
+});
+
       const passesBTUH =
   typeof rowBTUH === 'number' &&
   !isNaN(rowBTUH) &&
