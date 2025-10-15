@@ -187,6 +187,10 @@ console.log({
                     }}
                   />
 
+                   <Typography variant="h5" gutterBottom sx={{ mt: 2 }}>
+      System Summary
+    </Typography>
+
                   {(() => {
                     const addonFields = [
                       "required_addon1",
