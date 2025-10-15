@@ -64,7 +64,8 @@ export default function App() {
     // Filter evaporators by BTUH, refrigerant, style
 
     console.log("Selected Evap Style (lowercase):", selectedEvapStyleLC);
-    const filteredEvaps = evaps.filter((row) => {
+      const inputBTUH = Number(formData.btuh);
+      const filteredEvaps = evaps.filter((row) => {
       const rowBTUH = Number(String(row.btuh || "").replace(/[^\d.]/g, ''));
       const rowRefrigerant = String(row.refrigerant || "").trim().toLowerCase();
       const rowStyle = cleanStr(row.style);
@@ -79,8 +80,7 @@ export default function App() {
 
       // Define debug variables using your original logic
       console.log(`BTUH Range: ${formData.btuh * 0.8} - ${formData.btuh * 1.25}, Row BTUH: ${rowBTUH}`);
-      const passesBTUH =
-        rowBTUH &&
+      const inputBTUH =
         rowBTUH >= formData.btuh * 0.8 &&
         rowBTUH <= formData.btuh * 1.25;
 
