@@ -78,6 +78,7 @@ export default function App() {
 
 
       // Define debug variables using your original logic
+      console.log(`BTUH Range: ${formData.btuh * 0.8} - ${formData.btuh * 1.25}, Row BTUH: ${rowBTUH}`);
       const passesBTUH =
         rowBTUH &&
         rowBTUH >= formData.btuh * 0.6 &&
