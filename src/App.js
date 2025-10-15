@@ -187,9 +187,7 @@ console.log({
                     }}
                   />
 
-                   <Typography variant="h5" gutterBottom sx={{ mt: 2 }}>
-      System Summary
-    </Typography>
+                   
 
                   {(() => {
                     const addonFields = [
@@ -224,6 +222,10 @@ console.log({
                           minHeight: 60,
                         }}
                       >
+
+                        <Typography variant="h5" gutterBottom sx={{ mt: 2 }}>
+      System Summary
+    </Typography>
                         <ul style={{ margin: 0, paddingLeft: "1.25em" }}>
                           {summaryItems.map((item, idx) => (
                             <li key={idx}>
