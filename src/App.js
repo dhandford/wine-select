@@ -80,7 +80,7 @@ export default function App() {
       // Define debug variables using your original logic
       const passesBTUH =
         rowBTUH &&
-        rowBTUH >= formData.btuh * 0.9 &&
+        rowBTUH >= formData.btuh * 0.8 &&
         rowBTUH <= formData.btuh * 1.25;
 
       const passesRefrigerant =
